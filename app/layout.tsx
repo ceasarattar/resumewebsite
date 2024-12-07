@@ -25,9 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* Header Section */}
         <header className="bg-gray-100 py-4 shadow-md">
           <div className="max-w-6xl mx-auto flex justify-between items-center px-4">
@@ -36,31 +34,21 @@ export default function RootLayout({
               <a href="#about" className="text-blue-500 hover:underline">
                 About
               </a>
-              <a href="#projects" className="text-blue-500 hover:underline">
-                Projects
+              <a href="#skills" className="text-blue-500 hover:underline">
+                Skills
               </a>
               <a href="#contact" className="text-blue-500 hover:underline">
                 Contact
               </a>
-              <a
-                href="/resume.pdf"
-                download
-                className="text-blue-500 font-semibold hover:underline"
-              >
+              <a href="/resume.pdf" download className="text-blue-500 font-semibold hover:underline">
                 Download Resume
               </a>
             </nav>
           </div>
         </header>
-
-        {/* Main Content */}
         <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
-
-        {/* Footer Section */}
-        <footer className="bg-gray-100 py-4 mt-10">
-          <div className="max-w-6xl mx-auto text-center">
-            <p>&copy; {new Date().getFullYear()} Ceasar Attar. All rights reserved.</p>
-          </div>
+        <footer className="bg-gray-100 py-4 mt-10 text-center">
+          <p>&copy; {new Date().getFullYear()} Ceasar Attar. All rights reserved.</p>
         </footer>
       </body>
     </html>
