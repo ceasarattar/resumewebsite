@@ -138,7 +138,7 @@ export default function Home() {
               download
               className="text-blue-500 underline"
             >
-              Download My Resume
+              Download My Resume!
             </a>
           </p>
         </section>
