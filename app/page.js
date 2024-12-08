@@ -13,10 +13,15 @@ export default function Home() {
         return (
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-center mb-2">Educational Experience</h2>
-            <Image src="/separator.jpeg" alt="Separator" width={600} height={10} className="mx-auto mb-4" />
-            <p className="text-lg font-medium">University of Illinois at Chicago</p>
+            <Image src="/separator.jpeg" alt="Separator" width={400} height={3} className="mx-auto mb-4" />
+            <p className="text-lg font-bold">University of Illinois at Chicago</p>
             <p className="text-sm mb-4">Bachelor of Science in Computer Science, Expected May 2025</p>
-            <p className="text-sm">I have completed coursework in:</p>
+            <p className="text-sm">
+              Through comprehensive coursework, I’ve cultivated expertise in data structures, algorithms, operating systems,
+              database management, and cybersecurity. My education emphasizes innovative problem-solving, effective teamwork,
+              and a deep understanding of modern software development practices.
+            </p>
+            <p className="font-semibold mt-4">Relevant Coursework:</p>
             <ul className="list-disc ml-6 text-sm">
               <li>Data Structures and Algorithms</li>
               <li>Operating Systems</li>
@@ -24,12 +29,36 @@ export default function Home() {
               <li>Cybersecurity Foundations</li>
               <li>Web Development</li>
             </ul>
-            <p className="font-semibold mt-4">Certifications:</p>
-            <ul className="list-disc ml-6 text-sm">
-              <li>Google Foundations of Security</li>
-              <li>freeCodeCamp Responsive Web Design</li>
-              <li>Back End Development and APIs (freeCodeCamp)</li>
-            </ul>
+            <div className="mt-6">
+              <h3 className="font-bold">Association for Computing Machinery</h3>
+              <p className="text-sm text-gray-600">University of Illinois Chapter | September 2023 – Current</p>
+              <ul className="list-disc ml-6 text-sm">
+                <li>Managed server operations, ensuring 99% uptime for student projects and events.</li>
+                <li>Organized workshops, fostering skill development and member engagement.</li>
+                <li>Promoted computing interests through SIG events and hackathons.</li>
+                <li>Strengthened community through technical and social events.</li>
+              </ul>
+            </div>
+            <section id="skills" className="mt-6">
+              <h2 className="text-2xl font-semibold">Skills</h2>
+              <ul className="list-disc ml-6 mt-4 text-sm">
+                <li>
+                  <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
+                  Back End Development and APIs (freeCodeCamp)
+                </li>
+                <li>
+                  <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
+                </li>
+                <li>
+                  <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Maven, HTML, CSS, Google Test, Figma,
+                  Arduino
+                </li>
+                <li>
+                  <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Unity, Ruby
+                  on Rails
+                </li>
+              </ul>
+            </section>
           </div>
         );
 
@@ -37,8 +66,8 @@ export default function Home() {
         return (
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-center mb-2">Work Experience</h2>
-            <Image src="/separator.jpeg" alt="Separator" width={150} height={10} className="mx-auto mb-4" />
-            {/* Experience Entries */}
+            <Image src="/separator.jpeg" alt="Separator" width={400} height={3} className="mx-auto mb-4" />
+            {/* Digital Cash */}
             <div className="mb-6">
               <h3 className="font-bold text-lg">Digital Cash for Information Technology</h3>
               <p className="text-sm text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
@@ -49,24 +78,47 @@ export default function Home() {
                 <li>Streamlined team collaboration via Jira and agile sprints.</li>
               </ul>
             </div>
+            {/* J.P. Morgan */}
             <div className="mb-6">
               <h3 className="font-bold text-lg">J.P. Morgan Chase</h3>
               <p className="text-sm text-gray-600">Software Engineering Fellow | January 2024 – February 2024</p>
               <ul className="list-disc ml-6 text-sm">
-                <li>Developed Python and React tools for analyzing stock data.</li>
-                <li>Improved visualization outputs by debugging TypeScript code.</li>
-                <li>Optimized repository reliability and functionality.</li>
-                <li>Contributed to improved project outcomes by integrating proprietary frameworks.</li>
+                <li>Built a Python and React environment to analyze stock data.</li>
+                <li>Enhanced data visualization outputs by fixing TypeScript code.</li>
+                <li>Optimized repository reliability for internal analysis tools.</li>
+                <li>Integrated proprietary frameworks for project improvements.</li>
               </ul>
             </div>
+            {/* Paris Baguette */}
             <div className="mb-6">
               <h3 className="font-bold text-lg">Paris Baguette</h3>
               <p className="text-sm text-gray-600">Barista | April 2024 – November 2024</p>
               <ul className="list-disc ml-6 text-sm">
-                <li>Managed 400+ daily orders, including catering and custom cakes.</li>
-                <li>Maintained inventory levels and ensured operational efficiency.</li>
-                <li>Delivered exceptional customer service and resolved issues efficiently.</li>
-                <li>Led the morning shift, ensuring smooth opening and peak-time operations.</li>
+                <li>Handled over 400 daily orders, including catering and custom cakes.</li>
+                <li>Provided excellent customer service and ensured high satisfaction levels.</li>
+                <li>Maintained inventory and ensured efficient daily stocking.</li>
+                <li>Supported operational efficiency by managing the morning shift effectively.</li>
+              </ul>
+            </div>
+            {/* The North Face */}
+            <div className="mb-6">
+              <h3 className="font-bold text-lg">The North Face</h3>
+              <p className="text-sm text-gray-600">Sales Associate | April 2023 – June 2024</p>
+              <ul className="list-disc ml-6 text-sm">
+                <li>Averaged $3,000 in daily sales at a high-traffic Michigan Avenue location.</li>
+                <li>Provided personalized recommendations to enhance customer experience.</li>
+                <li>Collaborated on visual merchandising projects to boost sales.</li>
+                <li>Consistently exceeded sales goals through effective communication and teamwork.</li>
+              </ul>
+            </div>
+            {/* Planet Fitness */}
+            <div className="mb-6">
+              <h3 className="font-bold text-lg">Planet Fitness</h3>
+              <p className="text-sm text-gray-600">Sales Associate | May 2023 – July 2023</p>
+              <ul className="list-disc ml-6 text-sm">
+                <li>Assisted members with personalized fitness plans and membership queries.</li>
+                <li>Managed front-desk responsibilities, ensuring seamless gym operations.</li>
+                <li>Conducted tours to showcase the facility's amenities and services.</li>
               </ul>
             </div>
           </div>
@@ -76,19 +128,39 @@ export default function Home() {
         return (
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-center mb-2">Technical Projects</h2>
-            <Image src="/separator.jpeg" alt="Separator" width={150} height={10} className="mx-auto mb-4" />
-            <ul className="list-disc ml-6 mt-4 text-sm">
+            <Image src="/separator.jpeg" alt="Separator" width={400} height={3} className="mx-auto mb-4" />
+            <ul className="list-disc ml-6 text-sm">
               <li>
-                <strong>CTA Database App:</strong> Python and SQL application for analyzing and visualizing CTA data.
+                <strong>CTA Database App</strong>: A Python-SQL console application for analyzing Chicago Transit Authority
+                data. Leveraging Python for front-end and SQL for back-end data retrieval, it showcases advanced database
+                management and visualization skills.
+                <ul className="ml-4 mt-2 list-disc">
+                  <li>Created a Python-SQL console application for analyzing CTA data.</li>
+                  <li>Utilized SQL for back-end data retrieval, showcasing database management skills.</li>
+                </ul>
               </li>
               <li>
-                <strong>Encrypted Messenger:</strong> Secure Java-based messaging system using AES encryption and MySQL.
+                <strong>Encrypted Messenger</strong>: A secure messaging system with AES encryption using Java and MySQL. It
+                ensures real-time, encrypted client-server communication with Hibernate persistence.
+                <ul className="ml-4 mt-2 list-disc">
+                  <li>Designed a secure system for encrypted communication.</li>
+                  <li>Integrated Hibernate for seamless database operations.</li>
+                </ul>
               </li>
               <li>
-                <strong>Fast Food Frenzy:</strong> Unity-based interactive game with AI mechanics and custom shaders.
+                <strong>Fast Food Frenzy</strong>: Built a Unity-based game featuring AI mechanics and custom shaders.
+                <ul className="ml-4 mt-2 list-disc">
+                  <li>Developed game mechanics using C# and Unity’s AI constructs.</li>
+                  <li>Incorporated custom shaders for an engaging visual experience.</li>
+                </ul>
               </li>
               <li>
-                <strong>Smart Alarm Clock:</strong> Arduino-based environmental monitoring and timekeeping system.
+                <strong>Smart Alarm Clock</strong>: Created an Arduino-based device for real-time environmental monitoring and
+                alerts.
+                <ul className="ml-4 mt-2 list-disc">
+                  <li>Designed a clock using C/C++ for real-time updates and environmental monitoring.</li>
+                  <li>Enabled serial communication between Arduino devices.</li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -118,7 +190,6 @@ export default function Home() {
       <div className="flex max-w-7xl mx-auto min-h-screen">
         {/* Left Section */}
         <div className="w-2/5 p-10 bg-gray-100 flex flex-col space-y-8">
-          {/* Profile Section */}
           <div className="text-center">
             <Image
               src="/profile.jpeg"
@@ -128,12 +199,22 @@ export default function Home() {
               className="rounded-full mx-auto"
             />
             <h1 className="text-3xl font-bold mt-6">Ceasar Attar</h1>
-            <p className="text-xl mt-4">University of Illinois at Chicago</p>
-            <p className="text-sm mt-2">Bachelor of Science, 2025</p>
+            <p className="text-xl mt-4">
+              University of Illinois at Chicago<br />
+              Bachelor of Science, 2025
+            </p>
           </div>
+                    {/* About Me */}
+                    <section id="about" className="mt-6">
+            <p className="text-sm mt-4">
+              I am a senior Computer Science student passionate about backend development, cybersecurity, and solving
+              complex problems through efficient software solutions. I thrive in collaborative environments and excel at
+              adapting to challenges under pressure. My work on the CTA Database App and Encrypted Messenger exemplifies
+              my ability to deliver impactful projects.
+            </p>
+          </section>
 
-          {/* Contact Info */}
-          <div className="space-y-4 text-lg">
+          <div className="space-y-6 mt-8 text-lg">
             <div className="flex items-center gap-3">
               <FaMapMarkerAlt className="text-black" />
               <span>Chicago, IL</span>
@@ -178,28 +259,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* About Me */}
-          <section id="about" className="mt-6">
-            <h2 className="text-2xl font-semibold">About Me</h2>
-            <p className="text-sm mt-4">
-              I am a senior Computer Science student specializing in backend development and cybersecurity.
-              I have a passion for creating robust and efficient software systems. With strong problem-solving
-              and collaboration skills, I thrive in high-pressure environments and excel at implementing creative
-              solutions. My work spans secure messaging systems, real-time data analysis tools, and interactive
-              gaming projects, showcasing my versatility and dedication to innovation.
-            </p>
-          </section>
 
-          {/* Skills */}
-          <section id="skills" className="mt-6">
-            <h2 className="text-2xl font-semibold">Skills</h2>
-            <ul className="list-disc ml-6 mt-4 text-sm">
-              <li>Languages: Python, C++, Java, JavaScript, SQL</li>
-              <li>Frameworks: React, Hibernate, Ruby on Rails</li>
-              <li>Tools: Git, Postman, Figma, Unity</li>
-              <li>Certifications: Google Foundations of Security</li>
-            </ul>
-          </section>
         </div>
 
         {/* Right Section */}
