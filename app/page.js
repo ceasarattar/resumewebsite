@@ -13,7 +13,7 @@ export default function Home() {
         return (
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-center mb-2">Educational Experience</h2>
-            <Image src="/separator.jpeg" alt="Separator" width={400} height={3} className="mx-auto mb-4" />
+            <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
             <p className="text-lg font-bold">University of Illinois at Chicago</p>
             <p className="text-sm mb-4">Bachelor of Science in Computer Science, Expected May 2025</p>
             <p className="text-sm">
@@ -39,26 +39,7 @@ export default function Home() {
                 <li>Strengthened community through technical and social events.</li>
               </ul>
             </div>
-            <section id="skills" className="mt-6">
-              <h2 className="text-2xl font-semibold">Skills</h2>
-              <ul className="list-disc ml-6 mt-4 text-sm">
-                <li>
-                  <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
-                  Back End Development and APIs (freeCodeCamp)
-                </li>
-                <li>
-                  <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
-                </li>
-                <li>
-                  <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Maven, HTML, CSS, Google Test, Figma,
-                  Arduino
-                </li>
-                <li>
-                  <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Unity, Ruby
-                  on Rails
-                </li>
-              </ul>
-            </section>
+
           </div>
         );
 
@@ -66,7 +47,7 @@ export default function Home() {
         return (
           <div className="p-6">
             <h2 className="text-2xl font-semibold text-center mb-2">Work Experience</h2>
-            <Image src="/separator.jpeg" alt="Separator" width={400} height={3} className="mx-auto mb-4" />
+            <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
             {/* Digital Cash */}
             <div className="mb-6">
               <h3 className="font-bold text-lg">Digital Cash for Information Technology</h3>
@@ -124,47 +105,61 @@ export default function Home() {
           </div>
         );
 
-      case "technicalProjects":
-        return (
-          <div className="p-6">
-            <h2 className="text-2xl font-semibold text-center mb-2">Technical Projects</h2>
-            <Image src="/separator.jpeg" alt="Separator" width={400} height={3} className="mx-auto mb-4" />
-            <ul className="list-disc ml-6 text-sm">
-              <li>
-                <strong>CTA Database App</strong>: A Python-SQL console application for analyzing Chicago Transit Authority
-                data. Leveraging Python for front-end and SQL for back-end data retrieval, it showcases advanced database
-                management and visualization skills.
-                <ul className="ml-4 mt-2 list-disc">
-                  <li>Created a Python-SQL console application for analyzing CTA data.</li>
-                  <li>Utilized SQL for back-end data retrieval, showcasing database management skills.</li>
+        case "technicalProjects":
+          return (
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold text-center mb-2">Technical Projects</h2>
+              <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
+              <div className="mb-8">
+                <h3 className="text-xl font-bold">CTA Database App | Python / SQL</h3>
+                <p className="text-sm mt-2">
+                  A Python-SQL console application for analyzing Chicago Transit Authority data. Leveraging Python for front-end and SQL for back-end data retrieval, it showcases advanced database management and visualization skills.
+                </p>
+                <ul className="list-disc ml-6 mt-2 text-sm">
+                  <li>Created a Python-SQL console application for analyzing the Chicago Transit Authority database.</li>
+                  <li>Utilized SQL for back-end data retrieval, and Python for front-end data processing and visualization.</li>
+                  <li>Showcased skills in database management, analysis, and software development by efficiently querying and displaying data.</li>
                 </ul>
-              </li>
-              <li>
-                <strong>Encrypted Messenger</strong>: A secure messaging system with AES encryption using Java and MySQL. It
-                ensures real-time, encrypted client-server communication with Hibernate persistence.
-                <ul className="ml-4 mt-2 list-disc">
-                  <li>Designed a secure system for encrypted communication.</li>
-                  <li>Integrated Hibernate for seamless database operations.</li>
+              </div>
+        
+              <div className="mb-8">
+                <h3 className="text-xl font-bold">Encrypted Messenger | Java</h3>
+                <p className="text-sm mt-2">
+                  A secure messaging system with AES encryption using Java and MySQL. It ensures real-time, encrypted client-server communication with Hibernate persistence.
+                </p>
+                <ul className="list-disc ml-6 mt-2 text-sm">
+                  <li>Designed a secure messaging system using AES encryption for confidential data transmission over sockets, ensuring high security.</li>
+                  <li>Developed a multi-threaded server-client architecture to handle real-time communication with efficient message handling.</li>
+                  <li>Integrated Hibernate for seamless data persistence with MySQL, enabling CRUD operations and secure storage of encrypted messages.</li>
                 </ul>
-              </li>
-              <li>
-                <strong>Fast Food Frenzy</strong>: Built a Unity-based game featuring AI mechanics and custom shaders.
-                <ul className="ml-4 mt-2 list-disc">
-                  <li>Developed game mechanics using C# and Unity’s AI constructs.</li>
-                  <li>Incorporated custom shaders for an engaging visual experience.</li>
+              </div>
+        
+              <div className="mb-8">
+                <h3 className="text-xl font-bold">Fast Food Frenzy | Unity / C#</h3>
+                <p className="text-sm mt-2">
+                  Built a Unity-based game featuring AI mechanics and custom shaders.
+                </p>
+                <ul className="list-disc ml-6 mt-2 text-sm">
+                  <li>Built a Unity-based game using C# scripts and AI constructs to control player movements and game mechanics.</li>
+                  <li>Utilized custom shaders, maps, colliders, sound, and visual effects to enhance gameplay, creating an interactive experience.</li>
+                  <li>Conducted testing sessions with user feedback to improve game mechanics across alpha, beta, and final releases.</li>
                 </ul>
-              </li>
-              <li>
-                <strong>Smart Alarm Clock</strong>: Created an Arduino-based device for real-time environmental monitoring and
-                alerts.
-                <ul className="ml-4 mt-2 list-disc">
-                  <li>Designed a clock using C/C++ for real-time updates and environmental monitoring.</li>
-                  <li>Enabled serial communication between Arduino devices.</li>
+              </div>
+        
+              <div className="mb-8">
+                <h3 className="text-xl font-bold">Smart Alarm Clock | C / C++</h3>
+                <p className="text-sm mt-2">
+                  Created an Arduino-based device for real-time environmental monitoring and alerts.
+                </p>
+                <ul className="list-disc ml-6 mt-2 text-sm">
+                  <li>Developed a smart alarm clock using three Arduino Unos for timekeeping, environmental monitoring, and user interaction.</li>
+                  <li>Wrote C/C++ code for clock functionality, handling inputs, and updating displays based on real-time data.</li>
+                  <li>Enabled serial communication between Arduinos for real-time updates on time, temperature, humidity, and light levels.</li>
                 </ul>
-              </li>
-            </ul>
-          </div>
-        );
+              </div>
+            </div>
+          );
+        
 
       default:
         return null;
@@ -192,7 +187,7 @@ export default function Home() {
         <div className="w-2/5 p-10 bg-gray-100 flex flex-col space-y-8">
           <div className="text-center">
             <Image
-              src="/profile.jpeg"
+              src="/profilepicture.jpg"
               alt="Profile Picture"
               width={200}
               height={200}
@@ -258,6 +253,26 @@ export default function Home() {
               </a>
             </div>
           </div>
+          <section id="skills" className="mt-6">
+              <h2 className="text-2xl font-semibold">Skills</h2>
+              <ul className="list-disc ml-6 mt-4 text-sm">
+                <li>
+                  <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
+                  Back End Development and APIs (freeCodeCamp)
+                </li>
+                <li>
+                  <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
+                </li>
+                <li>
+                  <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Maven, HTML, CSS, Google Test, Figma,
+                  Arduino
+                </li>
+                <li>
+                  <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Unity, Ruby
+                  on Rails
+                </li>
+              </ul>
+            </section>
 
 
         </div>
