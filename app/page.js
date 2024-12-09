@@ -209,7 +209,7 @@ export default function Home() {
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/username/cta-database-app"
+                    href="https://github.com/ceasarattar/CTA-Database-App"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
@@ -238,7 +238,7 @@ export default function Home() {
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/username/encrypted-messenger"
+                    href="https://github.com/ceasarattar/ServerClientSpring"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
@@ -267,7 +267,7 @@ export default function Home() {
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/username/fast-food-frenzy"
+                    href="https://github.com/ceasarattar/FastFoodFrenzy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
