@@ -105,61 +105,104 @@ export default function Home() {
           </div>
         );
 
-        case "technicalProjects":
-          return (
-            <div className="p-6">
-              <h2 className="text-2xl font-semibold text-center mb-2">Technical Projects</h2>
-              <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
-              <div className="mb-8">
-                <h3 className="text-xl font-bold">CTA Database App | Python / SQL</h3>
-                <p className="text-sm mt-2">
-                  A Python-SQL console application for analyzing Chicago Transit Authority data. Leveraging Python for front-end and SQL for back-end data retrieval, it showcases advanced database management and visualization skills.
-                </p>
-                <ul className="list-disc ml-6 mt-2 text-sm">
+      case "technicalProjects":
+        return (
+          <div className="p-6">
+            <h2 className="text-2xl font-semibold text-center mb-2">Technical Projects</h2>
+            <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
+            <div className="mb-8">
+              <h3 className="text-xl font-bold flex items-center">
+                CTA Database App | Python / SQL
+                <Image
+                  src="/cta.png"
+                  alt="CTA Database App Logo"
+                  width={100}
+                  height={50}
+                  className="ml-4"
+                />
+              </h3>
+              <p className="text-sm mt-2">
+                A Python-SQL console application for analyzing Chicago Transit Authority data. Leveraging Python for front-end and SQL for back-end data retrieval, it showcases advanced database management and visualization skills.
+              </p>
+              <div className="flex">
+                <ul className="list-disc ml-6 mt-2 text-sm w-4/5">
                   <li>Created a Python-SQL console application for analyzing the Chicago Transit Authority database.</li>
                   <li>Utilized SQL for back-end data retrieval, and Python for front-end data processing and visualization.</li>
                   <li>Showcased skills in database management, analysis, and software development by efficiently querying and displaying data.</li>
                 </ul>
               </div>
-        
-              <div className="mb-8">
-                <h3 className="text-xl font-bold">Encrypted Messenger | Java</h3>
-                <p className="text-sm mt-2">
-                  A secure messaging system with AES encryption using Java and MySQL. It ensures real-time, encrypted client-server communication with Hibernate persistence.
-                </p>
-                <ul className="list-disc ml-6 mt-2 text-sm">
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-xl font-bold flex items-center">
+                Encrypted Messenger | Java
+                <Image
+                  src="/messenger.png"
+                  alt="Encrypted Messenger Logo"
+                  width={50}
+                  height={50}
+                  className="ml-4"
+                />
+              </h3>
+              <p className="text-sm mt-2">
+                A secure messaging system with AES encryption using Java and MySQL. It ensures real-time, encrypted client-server communication with Hibernate persistence.
+              </p>
+              <div className="flex">
+                <ul className="list-disc ml-6 mt-2 text-sm w-4/5">
                   <li>Designed a secure messaging system using AES encryption for confidential data transmission over sockets, ensuring high security.</li>
                   <li>Developed a multi-threaded server-client architecture to handle real-time communication with efficient message handling.</li>
                   <li>Integrated Hibernate for seamless data persistence with MySQL, enabling CRUD operations and secure storage of encrypted messages.</li>
                 </ul>
               </div>
-        
-              <div className="mb-8">
-                <h3 className="text-xl font-bold">Fast Food Frenzy | Unity / C#</h3>
-                <p className="text-sm mt-2">
-                  Built a Unity-based game featuring AI mechanics and custom shaders.
-                </p>
-                <ul className="list-disc ml-6 mt-2 text-sm">
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-xl font-bold flex items-center">
+                Fast Food Frenzy | Unity / C#
+                <Image
+                  src="/pizza.png"
+                  alt="Fast Food Frenzy Logo"
+                  width={50}
+                  height={50}
+                  className="ml-4"
+                />
+              </h3>
+              <p className="text-sm mt-2">
+                Built a Unity-based game featuring AI mechanics and custom shaders.
+              </p>
+              <div className="flex">
+                <ul className="list-disc ml-6 mt-2 text-sm w-4/5">
                   <li>Built a Unity-based game using C# scripts and AI constructs to control player movements and game mechanics.</li>
                   <li>Utilized custom shaders, maps, colliders, sound, and visual effects to enhance gameplay, creating an interactive experience.</li>
                   <li>Conducted testing sessions with user feedback to improve game mechanics across alpha, beta, and final releases.</li>
                 </ul>
               </div>
-        
-              <div className="mb-8">
-                <h3 className="text-xl font-bold">Smart Alarm Clock | C / C++</h3>
-                <p className="text-sm mt-2">
-                  Created an Arduino-based device for real-time environmental monitoring and alerts.
-                </p>
-                <ul className="list-disc ml-6 mt-2 text-sm">
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-xl font-bold flex items-center">
+                Smart Alarm Clock | C / C++
+                <Image
+                  src="/smartclock.png"
+                  alt="Smart Alarm Clock Logo"
+                  width={50}
+                  height={50}
+                  className="ml-4"
+                />
+              </h3>
+              <p className="text-sm mt-2">
+                Created an Arduino-based device for real-time environmental monitoring and alerts.
+              </p>
+              <div className="flex">
+                <ul className="list-disc ml-6 mt-2 text-sm w-4/5">
                   <li>Developed a smart alarm clock using three Arduino Unos for timekeeping, environmental monitoring, and user interaction.</li>
                   <li>Wrote C/C++ code for clock functionality, handling inputs, and updating displays based on real-time data.</li>
                   <li>Enabled serial communication between Arduinos for real-time updates on time, temperature, humidity, and light levels.</li>
                 </ul>
               </div>
             </div>
-          );
-        
+          </div>
+        );
 
       default:
         return null;
@@ -199,8 +242,8 @@ export default function Home() {
               Bachelor of Science, 2025
             </p>
           </div>
-                    {/* About Me */}
-                    <section id="about" className="mt-6">
+          {/* About Me */}
+          <section id="about" className="mt-6">
             <p className="text-sm mt-4">
               I am a senior Computer Science student passionate about backend development, cybersecurity, and solving
               complex problems through efficient software solutions. I thrive in collaborative environments and excel at
@@ -254,25 +297,25 @@ export default function Home() {
             </div>
           </div>
           <section id="skills" className="mt-6">
-              <h2 className="text-2xl font-semibold">Skills</h2>
-              <ul className="list-disc ml-6 mt-4 text-sm">
-                <li>
-                  <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
-                  Back End Development and APIs (freeCodeCamp)
-                </li>
-                <li>
-                  <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
-                </li>
-                <li>
-                  <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Maven, HTML, CSS, Google Test, Figma,
-                  Arduino
-                </li>
-                <li>
-                  <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Unity, Ruby
-                  on Rails
-                </li>
-              </ul>
-            </section>
+            <h2 className="text-2xl font-semibold">Skills</h2>
+            <ul className="list-disc ml-6 mt-4 text-sm">
+              <li>
+                <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
+                Back End Development and APIs (freeCodeCamp)
+              </li>
+              <li>
+                <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
+              </li>
+              <li>
+                <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Maven, HTML, CSS, Google Test, Figma,
+                Arduino
+              </li>
+              <li>
+                <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Unity, Ruby
+                on Rails
+              </li>
+            </ul>
+          </section>
 
 
         </div>
@@ -283,25 +326,22 @@ export default function Home() {
           <div className="flex justify-center gap-6 p-4 bg-gray-200 rounded-lg mb-6">
             <button
               onClick={() => setActiveTab("educationalExperience")}
-              className={`text-lg font-medium ${
-                activeTab === "educationalExperience" ? "text-black" : "text-gray-500"
-              }`}
+              className={`text-lg font-medium ${activeTab === "educationalExperience" ? "text-black" : "text-gray-500"
+                }`}
             >
               Educational Experience
             </button>
             <button
               onClick={() => setActiveTab("workExperience")}
-              className={`text-lg font-medium ${
-                activeTab === "workExperience" ? "text-black" : "text-gray-500"
-              }`}
+              className={`text-lg font-medium ${activeTab === "workExperience" ? "text-black" : "text-gray-500"
+                }`}
             >
               Work Experience
             </button>
             <button
               onClick={() => setActiveTab("technicalProjects")}
-              className={`text-lg font-medium ${
-                activeTab === "technicalProjects" ? "text-black" : "text-gray-500"
-              }`}
+              className={`text-lg font-medium ${activeTab === "technicalProjects" ? "text-black" : "text-gray-500"
+                }`}
             >
               Technical Projects
             </button>
