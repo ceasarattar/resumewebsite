@@ -116,8 +116,8 @@ export default function Home() {
                 <Image
                   src="/cta.png"
                   alt="CTA Database App Logo"
-                  width={100}
-                  height={50}
+                  width={150}
+                  height={75}
                   className="ml-4"
                 />
               </h3>
