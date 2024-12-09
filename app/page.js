@@ -21,8 +21,8 @@ export default function Home() {
               <Image
                 src="/images/uic.png"
                 alt="University of Illinois at Chicago Logo"
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 className="mx-auto"
               />
             </div>
