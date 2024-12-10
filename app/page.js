@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaFileDownload } from "react-icons/fa";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("workExperience");
@@ -316,6 +317,10 @@ export default function Home() {
 
   return (
     <div className="bg-white text-black min-h-screen">
+      <Head>
+        <title>Ceasar Attar's Portfolio</title>
+        <meta name="description" content="Ceasar Attar's personal portfolio showcasing work experience, technical projects, and educational background." />
+      </Head>
       {/* Backdrop Image */}
       <div className="max-w-8xl mx-auto px-6 bg-white">
         <div className="relative w-full">
