@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* ACM Section */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
-              <div className="ml-auto pr-90" style={{marginTop: '6rem'}}>
+              <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
                 <Image
                   src="/images/acm.png"
                   alt="ACM Logo"
@@ -63,7 +63,7 @@ export default function Home() {
                   As a member of ACM, I have actively contributed to building a community of computing enthusiasts on campus.
                   I have managed server operations, ensuring high uptime for student projects and events, and organized workshops
                   to enhance members' technical skills. My role in organizing Special Interest Group events and hackathons has promoted collaboration
-                  and innovation among peers while addressing real-world technical challenges. This involvement has significantly enhanced my leadership 
+                  and innovation among peers while addressing real-world technical challenges. This involvement has significantly enhanced my leadership
                   and technical skills, preparing me to make impactful contributions in the tech industry.
                 </p>
               </div>
@@ -71,124 +71,124 @@ export default function Home() {
           </div>
         );
 
-        case "workExperience":
-          return (
-            <div className="p-6">
-              <h2 className="text-3xl font-semibold text-center mb-4">Work Experience</h2>
-              <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
-              {/* Digital Cash */}
-              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
-                <div className="ml-auto pr-90">
-                  <Image
-                    src="/images/digitalcash.png"
-                    alt="Digital Cash Logo"
-                    width={200}
-                    height={200}
-                  />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg">Digital Cash for Information Technology</h3>
-                  <p className="text-sm text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
-                  <p className="mt-2 text-justify">
-                    As a backend cybersecurity intern, I significantly enhanced the security and performance of financial 
-                    applications by implementing advanced encryption protocols and integrating RESTful APIs. My solutions 
-                    included using AES and RSA encryption methods for secure handling of financial data, alongside utilizing 
-                    the Spring framework and Hibernate to improve system architecture and responsiveness. Throughout my time at
-                    Digital Cash, I collaborated effectively with team members using Jira and agile sprints, focusing 
-                    on optimizing backend code and maintaining high security standards across all projects.
-                  </p>
-                </div>
+      case "workExperience":
+        return (
+          <div className="p-6">
+            <h2 className="text-3xl font-semibold text-center mb-4">Work Experience</h2>
+            <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
+            {/* Digital Cash */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90">
+                <Image
+                  src="/images/digitalcash.png"
+                  alt="Digital Cash Logo"
+                  width={200}
+                  height={200}
+                />
               </div>
-              {/* J.P. Morgan */}
-              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-9">
-                <div className="ml-auto pr-90">
-                  <Image
-                    src="/images/chase.png"
-                    alt="J.P. Morgan Logo"
-                    width={200}
-                    height={200}
-                  />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg">J.P. Morgan Chase</h3>
-                  <p className="text-sm text-gray-600">Software Engineering Fellow | January 2024 – February 2024</p>
-                  <p className="mt-2 text-justify">
-                    During this fellowship, I developed a Python-React environment to analyze complex stock market data,
-                    significantly improving data accessibility for stakeholders. I enhanced data visualization by debugging
-                    and optimizing TypeScript components. The role involved working on proprietary frameworks to
-                    ensure the reliability of internal analysis tools.
-                  </p>
-                </div>
-              </div>
-              {/* Paris Baguette */}
-              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
-                <div className="ml-auto pr-90">
-                  <Image
-                    src="/images/parisbaguette.png"
-                    alt="Paris Baguette Logo"
-                    width={200}
-                    height={200}
-                  />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg">Paris Baguette</h3>
-                  <p className="text-sm text-gray-600">Barista | April 2024 – November 2024</p>
-                  <p className="mt-2 text-justify">
-                    As a barista and cashier, I efficiently managed over 500 orders per shift, demonstrating exceptional 
-                    customer service and operational skills. I oversaw stock and inventory, ensuring supplies were well-organized 
-                    and readily available, which was crucial for maintaining the flow of a busy environment. Additionally, I was 
-                    responsible for opening the store, organizing and displaying baked goods on the floor, and ensuring everything ran smoothly from the start of each day.
-                    This role required meticulous attention to detail and the ability to meet precise customer specifications consistently.
-                  </p>
-                </div>
-              </div>
-              {/* The North Face */}
-              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
-                <div className="ml-auto pr-90">
-                  <Image
-                    src="/images/thenorthface.png"
-                    alt="The North Face Logo"
-                    width={200}
-                    height={200}
-                  />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg">The North Face</h3>
-                  <p className="text-sm text-gray-600">Sales Associate | April 2023 – June 2024</p>
-                  <p className="mt-2 text-justify">
-                    As a sales associate in a busy location on Michigan Avenue, I consistently achieved high sales, averaging 
-                    over $3,000 daily. My role included opening and closing the store, handling online orders, and managing stock 
-                    to ensure availability. I was also responsible for creating visually appealing merchandise displays 
-                    and providing personalized customer recommendations. This dynamic environment boosted my 
-                    ability to excel through teamwork and effective communication, consistently surpassing sales targets and meeting goals.
-                  </p>
-                </div>
-              </div>
-              {/* Planet Fitness */}
-              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
-                <div className="ml-auto pr-90">
-                  <Image
-                    src="/images/planetfitness.png"
-                    alt="Planet Fitness Logo"
-                    width={200}
-                    height={200}
-                  />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg">Planet Fitness</h3>
-                  <p className="text-sm text-gray-600">Sales Associate | May 2023 – July 2023</p>
-                  <p className="mt-2 text-justify">
-                    My role involved opening the gym each morning and preparing the space to ensure it was clean and well-organized 
-                    for the day ahead. I supported gym members by creating personalized fitness plans, explaining membership options, and leading 
-                    detailed tours of our facilities. At the front desk, I managed daily operations, efficiently handling inquiries and maintaining 
-                    schedules. These responsibilities were key to providing a seamless and welcoming environment, enhancing member satisfaction and 
-                    ensuring a strong community atmosphere.
-                  </p>
-                </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg">Digital Cash for Information Technology</h3>
+                <p className="text-sm text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
+                <p className="mt-2 text-justify">
+                  As a backend cybersecurity intern, I significantly enhanced the security and performance of financial
+                  applications by implementing advanced encryption protocols and integrating RESTful APIs. My solutions
+                  included using AES and RSA encryption methods for secure handling of financial data, alongside utilizing
+                  the Spring framework and Hibernate to improve system architecture and responsiveness. Throughout my time at
+                  Digital Cash, I collaborated effectively with team members using Jira and agile sprints, focusing
+                  on optimizing backend code and maintaining high security standards across all projects.
+                </p>
               </div>
             </div>
-          );
-        
+            {/* J.P. Morgan */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-9">
+              <div className="ml-auto pr-90">
+                <Image
+                  src="/images/chase.png"
+                  alt="J.P. Morgan Logo"
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg">J.P. Morgan Chase</h3>
+                <p className="text-sm text-gray-600">Software Engineering Fellow | January 2024 – February 2024</p>
+                <p className="mt-2 text-justify">
+                  During this fellowship, I developed a Python-React environment to analyze complex stock market data,
+                  significantly improving data accessibility for stakeholders. I enhanced data visualization by debugging
+                  and optimizing TypeScript components. The role involved working on proprietary frameworks to
+                  ensure the reliability of internal analysis tools.
+                </p>
+              </div>
+            </div>
+            {/* Paris Baguette */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90">
+                <Image
+                  src="/images/parisbaguette.png"
+                  alt="Paris Baguette Logo"
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg">Paris Baguette</h3>
+                <p className="text-sm text-gray-600">Barista | April 2024 – November 2024</p>
+                <p className="mt-2 text-justify">
+                  As a barista and cashier, I efficiently managed over 500 orders per shift, demonstrating exceptional
+                  customer service and operational skills. I oversaw stock and inventory, ensuring supplies were well-organized
+                  and readily available, which was crucial for maintaining the flow of a busy environment. Additionally, I was
+                  responsible for opening the store, organizing and displaying baked goods on the floor, and ensuring everything ran smoothly from the start of each day.
+                  This role required meticulous attention to detail and the ability to meet precise customer specifications consistently.
+                </p>
+              </div>
+            </div>
+            {/* The North Face */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90">
+                <Image
+                  src="/images/thenorthface.png"
+                  alt="The North Face Logo"
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg">The North Face</h3>
+                <p className="text-sm text-gray-600">Sales Associate | April 2023 – June 2024</p>
+                <p className="mt-2 text-justify">
+                  As a sales associate in a busy location on Michigan Avenue, I consistently achieved high sales, averaging
+                  over $3,000 daily. My role included opening and closing the store, handling online orders, and managing stock
+                  to ensure availability. I was also responsible for creating visually appealing merchandise displays
+                  and providing personalized customer recommendations. This dynamic environment boosted my
+                  ability to excel through teamwork and effective communication, consistently surpassing sales targets and meeting goals.
+                </p>
+              </div>
+            </div>
+            {/* Planet Fitness */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90">
+                <Image
+                  src="/images/planetfitness.png"
+                  alt="Planet Fitness Logo"
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg">Planet Fitness</h3>
+                <p className="text-sm text-gray-600">Sales Associate | May 2023 – July 2023</p>
+                <p className="mt-2 text-justify">
+                  My role involved opening the gym each morning and preparing the space to ensure it was clean and well-organized
+                  for the day ahead. I supported gym members by creating personalized fitness plans, explaining membership options, and leading
+                  detailed tours of our facilities. At the front desk, I managed daily operations, efficiently handling inquiries and maintaining
+                  schedules. These responsibilities were key to providing a seamless and welcoming environment, enhancing member satisfaction and
+                  ensuring a strong community atmosphere.
+                </p>
+              </div>
+            </div>
+          </div>
+        );
+
 
       case "technicalProjects":
         return (
@@ -211,6 +211,7 @@ export default function Home() {
                   This project is a Python-SQL console application designed for analyzing Chicago Transit Authority (CTA) data.
                   It leverages Python for the front-end interface and SQL for efficient back-end data retrieval.
                   Users can query real-time information, visualize ridership trends, and optimize transit planning.
+                  The project emphasizes advanced database management, efficient querying, and robust software development skills.
                 </p>
                 <p className="mt-4">
                   <a
@@ -225,24 +226,52 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Wumpus Project */}
+            {/* Encrypted Messenger */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <Image
-                src="/images/wumpus.png"
-                alt="Wumpus Project"
+                src="/images/messenger.png"
+                alt="Encrypted Messenger"
                 width={100}
                 height={100}
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Wumpus Project</h3>
+                <h3 className="text-xl font-bold">Encrypted Messenger</h3>
                 <p className="mt-2">
-                  Developed a strategy-based game in Python where players navigate a dungeon filled with challenges and enemies.
-                  Emphasized algorithm optimization and AI-based decision-making to enhance the gameplay experience.
+                  A secure messaging application built using Java and MySQL, focusing on AES encryption to protect client-server communication.
+                  The system features multi-threaded architecture for real-time interactions, robust data persistence through Hibernate, and a focus on confidentiality and reliability.
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/ceasarattar/Wumpus"
+                    href="https://github.com/ceasarattar/ServerClientSpring"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            {/* Fridge Inventory */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+              <Image
+                src="/images/fridge.png"
+                alt="Fridge Inventory"
+                width={100}
+                height={100}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-bold">Fridge Inventory</h3>
+                <p className="mt-2">
+                  A Python-based inventory management application that helps users track and organize food items in their fridge.
+                  This project uses a simple and efficient interface for adding, removing, and viewing inventory items.
+                </p>
+                <p className="mt-4">
+                  <a
+                    href="https://github.com/ceasarattar/FridgeInventory/tree/main"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
@@ -265,8 +294,8 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="text-xl font-bold">Billboard Analysis</h3>
                 <p className="mt-2">
-                  Created a Python data analytics tool to analyze trends in Billboard charts, focusing on artist success rates
-                  and genre popularity. The project includes data visualization using Matplotlib and Pandas.
+                  Developed a data analytics tool in Python to analyze trends in Billboard charts, focusing on artist success rates
+                  and genre popularity. The project utilizes Matplotlib and Pandas for visualizing trends and insights.
                 </p>
                 <p className="mt-4">
                   <a
@@ -281,24 +310,24 @@ export default function Home() {
               </div>
             </div>
 
-            {/* March Madness */}
+            {/* Battleship */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <Image
-                src="/images/marchmadness.png"
-                alt="March Madness"
+                src="/images/battleship.png"
+                alt="Battleship"
                 width={100}
                 height={100}
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">March Madness Predictor</h3>
+                <h3 className="text-xl font-bold">Battleship Game</h3>
                 <p className="mt-2">
-                  Built a machine learning model using Python to predict NCAA basketball tournament outcomes. Utilized
-                  scikit-learn for predictive modeling and Flask for a web-based interface.
+                  Implemented a multiplayer Battleship game using Java with a client-server architecture. This project uses
+                  sockets for communication and includes a responsive interface for seamless gameplay.
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/ceasarattar/March-Madness"
+                    href="https://github.com/ceasarattar/BattleshipClientServer"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
@@ -309,24 +338,52 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Knight Escape */}
+            {/* Blackjack Game */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <Image
-                src="/images/knight.png"
-                alt="Knight Escape"
+                src="/images/blackjack.png"
+                alt="Blackjack Game"
                 width={100}
                 height={100}
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Knight Escape</h3>
+                <h3 className="text-xl font-bold">Blackjack Game</h3>
                 <p className="mt-2">
-                  Developed a 2D Unity game where players solve puzzles to help a knight escape a dungeon. Focused on AI
-                  pathfinding and dynamic level generation.
+                  A Python-based command-line implementation of the classic Blackjack card game. This project focuses on
+                  gameplay mechanics, card shuffling algorithms, and player interaction through a clean CLI.
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/ceasarattar/Knight-Escape"
+                    href="https://github.com/ceasarattar/BlackjackGame"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
+            {/* Fast Food Frenzy */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+              <Image
+                src="/images/pizza.png"
+                alt="Fast Food Frenzy"
+                width={100}
+                height={100}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-bold">Fast Food Frenzy</h3>
+                <p className="mt-2">
+                  A Unity-based game where players manage fast food restaurants under increasing challenges.
+                  This game employs AI mechanics for dynamic gameplay, custom shaders for a visually immersive experience, and sound effects to enhance user engagement.
+                  Developed using C# scripts, the game reflects proficiency in game development and interactive design.
+                </p>
+                <p className="mt-4">
+                  <a
+                    href="https://github.com/ceasarattar/FastFoodFrenzy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
@@ -337,24 +394,25 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Wordle Reloaded */}
+            {/* Smart Alarm Clock */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <Image
-                src="/images/wordle.png"
-                alt="Wordle Reloaded"
+                src="/images/smartclock.png"
+                alt="Smart Alarm Clock"
                 width={100}
                 height={100}
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Wordle Reloaded</h3>
+                <h3 className="text-xl font-bold">Smart Alarm Clock</h3>
                 <p className="mt-2">
-                  Recreated the Wordle game using React.js to add new features like daily challenges, scoring, and an intuitive UI.
-                  Improved on the original game design by implementing hints and streak tracking.
+                  An Arduino-based smart device designed for real-time environmental monitoring.
+                  It combines functionality like temperature and humidity detection with user-friendly alarm settings.
+                  Using C/C++ for microcontroller programming, the project showcases real-time serial communication and environmental sensing expertise.
                 </p>
                 <p className="mt-4">
                   <a
-                    href="https://github.com/ceasarattar/Wordle-Reloaded"
+                    href="https://github.com/ceasarattar/SmartAlarmClock"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
@@ -366,7 +424,6 @@ export default function Home() {
             </div>
           </div>
         );
-
 
       default:
         return null;
