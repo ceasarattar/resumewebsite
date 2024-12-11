@@ -189,7 +189,6 @@ export default function Home() {
           </div>
         );
 
-
       case "technicalProjects":
         return (
           <div className="p-6">
@@ -207,11 +206,16 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-bold">CTA Database App</h3>
-                <p className="mt-2">
-                  This project is a Python-SQL console application designed for analyzing Chicago Transit Authority (CTA) data.
-                  It leverages Python for the front-end interface and SQL for efficient back-end data retrieval.
-                  Users can query real-time information, visualize ridership trends, and optimize transit planning.
-                  The project emphasizes advanced database management, efficient querying, and robust software development skills.
+                <p className="mt-2 text-justify">
+                  The CTA Database App is a Python-based console application that leverages SQL for backend data
+                  management and Matplotlib for dynamic data visualization. This utility enables users to interact
+                  with Chicago Transit Authority (CTA) data through nine versatile commands, allowing for advanced
+                  querying and analysis through parameterized SQL queries. The application uses Python for implementing
+                  user input based features such as ridership breakdowns by day type, station color, and stop name.
+                  SQLite's relational database capabilities are utilized to aggregate and join data across multiple tables,
+                  enabling efficient retrieval of ridership trends, station statistics, and stop details. This tool demonstrates
+                  the integration of data engineering and visualization techniques to provide valuable insights into CTA's
+                  transit system, making it a powerful resource for operational analysis.
                 </p>
                 <p className="mt-4">
                   <a
@@ -237,9 +241,14 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-bold">Encrypted Messenger</h3>
-                <p className="mt-2">
-                  A secure messaging application built using Java and MySQL, focusing on AES encryption to protect client-server communication.
-                  The system features multi-threaded architecture for real-time interactions, robust data persistence through Hibernate, and a focus on confidentiality and reliability.
+                <p className="mt-2 text-justify">
+                  The Encrypted Messenger is a secure communication application developed using the Spring Framework, adhering
+                  to the Single Responsibility Principle to ensure each class has a distinct function. It employs a RESTful API
+                  architecture, facilitating operations such as POST, GET, and DELETE, which can be tested using tools like Postman.
+                  Data persistence is managed through Hibernate ORM, interfacing with a MySQL database to store messages and user
+                  information. The application features a client-server model where messages are encrypted using the Advanced Encryption
+                  Standard (AES) before transmission, ensuring data confidentiality during transit. Upon reaching the server, messages
+                  are decrypted and stored securely in the database.
                 </p>
                 <p className="mt-4">
                   <a
@@ -265,9 +274,14 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-bold">Fridge Inventory</h3>
-                <p className="mt-2">
-                  A Python-based inventory management application that helps users track and organize food items in their fridge.
-                  This project uses a simple and efficient interface for adding, removing, and viewing inventory items.
+                <p className="mt-2 text-justify">
+                  The Fridge Inventory application is designed to help users efficiently manage the contents of a shared refrigerator,
+                  such as those found in restaurants. Developed using JavaScript with Node.js and Express for the backend, and React
+                  for the frontend, it provides a seamless interface for tracking and organizing fridge items. The application utilizes
+                  a MySQL database to store information about users and fridge items, ensuring data consistency and integrity. Users can
+                  log the addition or removal of items, which are categorized (e.g., fruits, vegetables) to facilitate easy tracking. Each
+                  item entry is associated with the user who added it, promoting accountability and transparency. This system enhances the
+                  management of shared refrigerator contents by providing clear insights into inventory status and user interactions.
                 </p>
                 <p className="mt-4">
                   <a
@@ -282,89 +296,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Billboard Analysis */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
-              <Image
-                src="/images/billboardanalysis.png"
-                alt="Billboard Analysis"
-                width={100}
-                height={100}
-                className="ml-6"
-              />
-              <div className="flex-1">
-                <h3 className="text-xl font-bold">Billboard Analysis</h3>
-                <p className="mt-2">
-                  Developed a data analytics tool in Python to analyze trends in Billboard charts, focusing on artist success rates
-                  and genre popularity. The project utilizes Matplotlib and Pandas for visualizing trends and insights.
-                </p>
-                <p className="mt-4">
-                  <a
-                    href="https://github.com/ceasarattar/Billboard-Analysis"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 underline"
-                  >
-                    <i className="fa fa-external-link"></i> Find out more
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Battleship */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
-              <Image
-                src="/images/battleship.png"
-                alt="Battleship"
-                width={100}
-                height={100}
-                className="ml-6"
-              />
-              <div className="flex-1">
-                <h3 className="text-xl font-bold">Battleship Game</h3>
-                <p className="mt-2">
-                  Implemented a multiplayer Battleship game using Java with a client-server architecture. This project uses
-                  sockets for communication and includes a responsive interface for seamless gameplay.
-                </p>
-                <p className="mt-4">
-                  <a
-                    href="https://github.com/ceasarattar/BattleshipClientServer"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 underline"
-                  >
-                    <i className="fa fa-external-link"></i> Find out more
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Blackjack Game */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
-              <Image
-                src="/images/blackjack.png"
-                alt="Blackjack Game"
-                width={100}
-                height={100}
-                className="ml-6"
-              />
-              <div className="flex-1">
-                <h3 className="text-xl font-bold">Blackjack Game</h3>
-                <p className="mt-2">
-                  A Python-based command-line implementation of the classic Blackjack card game. This project focuses on
-                  gameplay mechanics, card shuffling algorithms, and player interaction through a clean CLI.
-                </p>
-                <p className="mt-4">
-                  <a
-                    href="https://github.com/ceasarattar/BlackjackGame"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 underline"
-                  >
-                    <i className="fa fa-external-link"></i> Find out more
-                  </a>
-                </p>
-              </div>
-            </div>
             {/* Fast Food Frenzy */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <Image
@@ -376,10 +307,13 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-bold">Fast Food Frenzy</h3>
-                <p className="mt-2">
-                  A Unity-based game where players manage fast food restaurants under increasing challenges.
-                  This game employs AI mechanics for dynamic gameplay, custom shaders for a visually immersive experience, and sound effects to enhance user engagement.
-                  Developed using C# scripts, the game reflects proficiency in game development and interactive design.
+                <p className="mt-2 text-justify">
+                  Fast Food Frenzy is a Unity-based simulation game developed in C# that challenges players to manage a
+                  fast-food restaurant under increasing levels of difficulty. The game leverages AI constructs to control
+                  customer behavior and game mechanics, creating a dynamic and engaging experience. Advanced game development
+                  techniques were utilized, including the use of custom shaders, maps, colliders, and sound and visual effects,
+                  to deliver an immersive and interactive environment. Throughout development, multiple testing sessions were
+                  conducted with user feedback to refine gameplay mechanics, ensuring a smooth and enjoyable experience across alpha, beta, and final releases.
                 </p>
                 <p className="mt-4">
                   <a
@@ -405,10 +339,14 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-bold">Smart Alarm Clock</h3>
-                <p className="mt-2">
-                  An Arduino-based smart device designed for real-time environmental monitoring.
-                  It combines functionality like temperature and humidity detection with user-friendly alarm settings.
-                  Using C/C++ for microcontroller programming, the project showcases real-time serial communication and environmental sensing expertise.
+                <p className="mt-2 text-justify">
+                  The Smart Alarm Clock is an Arduino-based project designed to combine real-time environmental monitoring with customizable alarm functionalities.
+                  Developed using C++ for microcontroller programming, the system integrates components such as an LCD display, temperature and humidity sensors,
+                  and wireless communication modules to provide users with timely environmental data and notifications. The clock continuously measures and displays
+                  temperature and humidity levels, allowing users to set alarms based on specific times or environmental thresholds, enhancing its utility beyond
+                  traditional alarm clocks. The user interface, presented on an LCD screen, ensures clear interaction and control, while wireless communication modules
+                  enable remote sensor data collection and alarm triggering. This project highlights expertise in embedded systems and hardware-software development,
+                  offering a practical example of leveraging environmental data to create a smarter and more responsive alarm clock.
                 </p>
                 <p className="mt-4">
                   <a
@@ -422,8 +360,107 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            {/* Battleship */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+              <Image
+                src="/images/battleship.png"
+                alt="Battleship"
+                width={100}
+                height={100}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-bold">Battleship Game</h3>
+                <p className="mt-2 text-justify">
+                  The Battleship Client-Server Application is a Java-based implementation of the classic Battleship game,
+                  designed to facilitate multiplayer gameplay over a network using a client-server architecture. The server
+                  component manages game sessions and player interactions, while the client provides an intuitive interface
+                  for users to place ships and execute moves. Communication between the client and server is handled via sockets,
+                  ensuring real-time responsiveness. The application employs the Model-View-Controller (MVC) design pattern to separate
+                  game logic from the user interface, enhancing maintainability and scalability. This project demonstrates proficiency
+                  in network programming, concurrent processing, and software design principles, offering an engaging platform for users
+                  to enjoy the Battleship game remotely.
+                </p>
+                <p className="mt-4">
+                  <a
+                    href="https://github.com/ceasarattar/BattleshipClientServer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            {/* Blackjack Game */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+              <Image
+                src="/images/blackjack.png"
+                alt="Blackjack Game"
+                width={100}
+                height={100}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-bold">Blackjack Game</h3>
+                <p className="mt-2 text-justify">
+                  The Blackjack Game is a Java-based application that simulates the classic card game, featuring an
+                  interactive JavaFX GUI for an engaging user experience. Developed using object-oriented programming
+                  principles, the project includes modular design with distinct classes for the deck, players, and game logic.
+                  The game adheres to standard Blackjack rules, enabling players to perform actions such as hitting, standing,
+                  and doubling down, while the program handles card shuffling, dealing, and score calculations. The JavaFX GUI
+                  enhances gameplay by providing an intuitive interface, complete with dynamic visuals for cards, scores,
+                  and player actions, creating an immersive experience.
+                </p>
+                <p className="mt-4">
+                  <a
+                    href="https://github.com/ceasarattar/BlackjackGame"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>{/* Billboard Analysis */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+              <Image
+                src="/images/billboardanalysis.png"
+                alt="Billboard Analysis"
+                width={100}
+                height={100}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-bold">Billboard Analysis</h3>
+                <p className="mt-2 text-justify">
+                  The Billboard Analysis Program is a C++ application designed to analyze Billboard chart data from 1960 to 2020,
+                  offering insights into musical trends, artist performance, and song popularity across decades. The program utilizes
+                  structured data management with structs to represent entries and integrates CSV parsing for seamless data import.
+                  It provides an interactive menu-driven interface, enabling users to perform detailed analysis such as identifying
+                  songs with the most number-one occurrences, determining the longest-charting songs, and examining the steepest weekly
+                  climbs. Users can filter results by decade, year, or artist name, enhancing the flexibility of the tool. By leveraging
+                  efficient data structures, the program delivers actionable insights into chart performance.
+                </p>
+                <p className="mt-4">
+                  <a
+                    href="https://github.com/ceasarattar/Billboard-Analysis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         );
+
 
       default:
         return null;
