@@ -70,20 +70,19 @@ export default function Home() {
             </div>
           </div>
         );
-
       case "workExperience":
         return (
           <div className="p-6">
             <h2 className="text-3xl font-semibold text-center mb-4">Work Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
             {/* Digital Cash */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <div className="ml-auto pr-90">
                 <Image
                   src="/images/digitalcash.png"
                   alt="Digital Cash Logo"
-                  width={200}
-                  height={200}
+                  width={150}
+                  height={150}
                 />
               </div>
               <div className="flex-1">
@@ -100,13 +99,13 @@ export default function Home() {
               </div>
             </div>
             {/* J.P. Morgan */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-9">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
               <div className="ml-auto pr-90">
                 <Image
                   src="/images/chase.png"
                   alt="J.P. Morgan Logo"
-                  width={200}
-                  height={200}
+                  width={120}
+                  height={120}
                 />
               </div>
               <div className="flex-1">
@@ -121,13 +120,13 @@ export default function Home() {
               </div>
             </div>
             {/* Paris Baguette */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <div className="ml-auto pr-90">
                 <Image
                   src="/images/parisbaguette.png"
                   alt="Paris Baguette Logo"
-                  width={200}
-                  height={200}
+                  width={150}
+                  height={150}
                 />
               </div>
               <div className="flex-1">
@@ -143,13 +142,13 @@ export default function Home() {
               </div>
             </div>
             {/* The North Face */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <div className="ml-auto pr-90">
                 <Image
                   src="/images/thenorthface.png"
                   alt="The North Face Logo"
-                  width={200}
-                  height={200}
+                  width={150}
+                  height={150}
                 />
               </div>
               <div className="flex-1">
@@ -165,13 +164,13 @@ export default function Home() {
               </div>
             </div>
             {/* Planet Fitness */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <div className="ml-auto pr-90">
                 <Image
                   src="/images/planetfitness.png"
                   alt="Planet Fitness Logo"
-                  width={200}
-                  height={200}
+                  width={150}
+                  height={150}
                 />
               </div>
               <div className="flex-1">
@@ -200,7 +199,7 @@ export default function Home() {
               <Image
                 src="/images/cta.png"
                 alt="CTA Database App"
-                width={200}
+                width={100}
                 height={100}
                 className="ml-6"
               />
@@ -592,7 +591,7 @@ export default function Home() {
         </div>
 
         {/* Right Section */}
-        <div className="w-3/5 p-12">
+        <div className="w-3/5 p-2">
           {/* Tabs */}
           <div className="flex justify-center gap-6 p-4 bg-gray-200 rounded-lg mb-6">
             <button
