@@ -279,7 +279,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold">Fridge Inventory</h3>
                 <p className="mt-2 text-justify">
                   The Fridge Inventory application is designed to help users efficiently manage the contents of a shared refrigerator,
-                  such as those found in restaurants. Developed using JavaScript with Node.js and Express for the backend, and React
+                  such as those found in restaurants. Developed using JavaScript with Node.js and Express.js for the backend, and React
                   for the frontend, it provides a seamless interface for tracking and organizing fridge items. The application utilizes
                   a MySQL database to store information about users and fridge items, ensuring data consistency and integrity. Users can
                   log the addition or removal of items, which are categorized (e.g., fruits, vegetables) to facilitate easy tracking. Each
