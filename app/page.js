@@ -112,14 +112,14 @@ export default function Home() {
                 <h3 className="font-bold text-lg">J.P. Morgan Chase</h3>
                 <p className="text-sm text-gray-600">Software Engineering Virtual Experience | December 2024</p>
                 <p className="mt-2 text-justify">
-                During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable 
-                smooth communication between frontend and backend components, ensuring scalability and independent operation 
-                of processes. I integrated an in-memory H2 database to store and validate transaction records in real-time, 
-                allowing for quick data storage while reducing reliance on external databases during testing. To optimize 
-                backend interactions, I developed and enhanced RESTful APIs with Spring Boot RestTemplate, enabling faster 
-                and more reliable communication between backend services. To ensure system reliability, I implemented rigorous 
-                testing using JUnit and embedded Kafka, simulating real-world message flows to validate data accuracy and performance 
-                under load. This project enhanced my ability to design scalable systems, improve backend workflows, and test data-driven applications.
+                  During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable
+                  smooth communication between frontend and backend components, ensuring scalability and independent operation
+                  of processes. I integrated an in-memory H2 database to store and validate transaction records in real-time,
+                  allowing for quick data storage while reducing reliance on external databases during testing. To optimize
+                  backend interactions, I developed and enhanced RESTful APIs with Spring Boot RestTemplate, enabling faster
+                  and more reliable communication between backend services. To ensure system reliability, I implemented rigorous
+                  testing using JUnit and embedded Kafka, simulating real-world message flows to validate data accuracy and performance
+                  under load. This project enhanced my ability to design scalable systems, improve backend workflows, and test data-driven applications.
                 </p>
               </div>
             </div>
@@ -530,7 +530,7 @@ export default function Home() {
             <hr className="w-80 mx-auto border-black mb-4" />
             <div className="flex flex-col items-center text-center w-full">
               <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Skills:</strong> Project Management, Time Management, Teamwork and Collaboration, 
+                <strong>Skills:</strong> Project Management, Time Management, Teamwork and Collaboration,
                 Critical Thinking, Problem Solving, Attention to Detail, Creativity
               </p>
               <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
@@ -556,13 +556,13 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-center mb-2">Contact and Profiles</h2>
             <hr className="w-80 mx-auto border-black mb-4" />
             <div className="flex flex-col items-center text-center w-full">
-              <div className="flex items-center w-3/4 mx-auto mb-4" style={{ paddingLeft: "170px" }}>
+              <div className="flex items-center justify-center w-full mb-4">
                 <FaEnvelope className="text-black mr-3" />
                 <a href="mailto:ceasarattar03@gmail.com" className="text-blue-500 underline">
                   Email
                 </a>
               </div>
-              <div className="flex items-center w-3/4 mx-auto mb-4" style={{ paddingLeft: "170px" }}>
+              <div className="flex items-center justify-center w-full mb-4">
                 <FaLinkedin className="text-blue-700 mr-3" />
                 <a
                   href="https://linkedin.com/in/ceasarattar"
@@ -573,7 +573,7 @@ export default function Home() {
                   LinkedIn
                 </a>
               </div>
-              <div className="flex items-center w-3/4 mx-auto mb-4" style={{ paddingLeft: "170px" }}>
+              <div className="flex items-center justify-center w-full mb-4">
                 <FaGithub className="text-black mr-3" />
                 <a
                   href="https://github.com/ceasarattar"
@@ -584,7 +584,7 @@ export default function Home() {
                   GitHub
                 </a>
               </div>
-              <div className="flex items-center w-3/4 mx-auto" style={{ paddingLeft: "170px" }}>
+              <div className="flex items-center justify-center w-full">
                 <FaFileDownload className="text-black mr-3" />
                 <a
                   href="/sweResume.pdf"
@@ -596,6 +596,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+
 
         </div>
 
