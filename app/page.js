@@ -110,12 +110,16 @@ export default function Home() {
               </div>
               <div className="flex-1">
                 <h3 className="font-bold text-lg">J.P. Morgan Chase</h3>
-                <p className="text-sm text-gray-600">Software Engineering Fellow | January 2024 – February 2024</p>
+                <p className="text-sm text-gray-600">Software Engineering Virtual Experience | December 2024</p>
                 <p className="mt-2 text-justify">
-                  During this fellowship, I developed a Python-React environment to analyze complex stock market data,
-                  significantly improving data accessibility for stakeholders. I enhanced data visualization by debugging
-                  and optimizing TypeScript components. The role involved working on proprietary frameworks to
-                  ensure the reliability of internal analysis tools.
+                During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable 
+                smooth communication between frontend and backend components, ensuring scalability and independent operation 
+                of processes. I integrated an in-memory H2 database to store and validate transaction records in real-time, 
+                allowing for quick data storage while reducing reliance on external databases during testing. To optimize 
+                backend interactions, I developed and enhanced RESTful APIs with Spring Boot RestTemplate, enabling faster 
+                and more reliable communication between backend services. To ensure system reliability, I implemented rigorous 
+                testing using JUnit and embedded Kafka, simulating real-world message flows to validate data accuracy and performance 
+                under load. This project enhanced my ability to design scalable systems, improve backend workflows, and test data-driven applications.
                 </p>
               </div>
             </div>
@@ -524,19 +528,23 @@ export default function Home() {
           <section id="skills" className="mt-6">
             <h2 className="text-2xl font-semibold text-center mb-2">Skills and Expertise</h2>
             <hr className="w-80 mx-auto border-black mb-4" />
-            <div className="text-center space-y-3">
-              <p style={{ textAlign: 'justify', textAlignLast: 'center' }}>
+            <div className="flex flex-col items-center text-center w-full">
+              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
+                <strong>Skills:</strong> Project Management, Time Management, Teamwork and Collaboration, 
+                Critical Thinking, Problem Solving, Attention to Detail, Creativity
+              </p>
+              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
                 Back End Development and APIs (freeCodeCamp)
               </p>
-              <p style={{ textAlign: 'justify', textAlignLast: 'center' }}>
+              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
               </p>
-              <p style={{ textAlign: 'justify', textAlignLast: 'center' }}>
-                <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Maven, HTML, CSS, Google Test, Figma, Arduino
+              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
+                <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Postman, Maven, HTML, CSS, Google Test, Figma, Arduino
               </p>
-              <p style={{ textAlign: 'justify', textAlignLast: 'center' }}>
-                <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Unity, Ruby
+              <p className="text-justify w-3/4 mx-auto" style={{ textAlignLast: "center" }}>
+                <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Kafka, Express.js, Node.js, JUnit, Unity, Ruby on Rails
                 on Rails
               </p>
             </div>
@@ -547,15 +555,15 @@ export default function Home() {
           <section id="contact" className="mt-8">
             <h2 className="text-2xl font-semibold text-center mb-2">Contact and Profiles</h2>
             <hr className="w-80 mx-auto border-black mb-4" />
-            <div className="space-y-4 text-center text-lg">
-              <div className="flex items-center justify-center gap-3">
-                <FaEnvelope className="text-black" />
+            <div className="flex flex-col items-center text-center w-full">
+              <div className="flex items-center w-3/4 mx-auto mb-4" style={{ paddingLeft: "170px" }}>
+                <FaEnvelope className="text-black mr-3" />
                 <a href="mailto:ceasarattar03@gmail.com" className="text-blue-500 underline">
                   Email
                 </a>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <FaLinkedin className="text-blue-700" />
+              <div className="flex items-center w-3/4 mx-auto mb-4" style={{ paddingLeft: "170px" }}>
+                <FaLinkedin className="text-blue-700 mr-3" />
                 <a
                   href="https://linkedin.com/in/ceasarattar"
                   className="text-blue-500 underline"
@@ -565,8 +573,8 @@ export default function Home() {
                   LinkedIn
                 </a>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <FaGithub className="text-black" />
+              <div className="flex items-center w-3/4 mx-auto mb-4" style={{ paddingLeft: "170px" }}>
+                <FaGithub className="text-black mr-3" />
                 <a
                   href="https://github.com/ceasarattar"
                   className="text-blue-500 underline"
@@ -576,10 +584,10 @@ export default function Home() {
                   GitHub
                 </a>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <FaFileDownload className="text-black" />
+              <div className="flex items-center w-3/4 mx-auto" style={{ paddingLeft: "170px" }}>
+                <FaFileDownload className="text-black mr-3" />
                 <a
-                  href="/resume.pdf"
+                  href="/sweResume.pdf"
                   download
                   className="text-blue-500 underline"
                 >
@@ -588,6 +596,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+
         </div>
 
         {/* Right Section */}
