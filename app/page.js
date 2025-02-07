@@ -68,6 +68,57 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            {/* NAAMA Section */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                <Image
+                  src="/images/naama.png"
+                  alt="NAAMA Logo"
+                  width={200}
+                  height={200}
+                  className="mr-6"
+                />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-lg font-bold"><br /><br /><br />NAAMA NextGen</h4>
+                <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | August 2023 – Current</p>
+                <p className="text-md" style={{ textAlign: 'justify' }}>
+                As a dedicated member of NAAMA NextGen at the University of Illinois Chicago (UIC), I actively 
+                contribute to a vibrant community of Arab American healthcare students. Our mission is to empower
+                 members through professional development events, mentorship programs, and philanthropic initiatives, 
+                 all aimed at fostering personal and professional growth. By engaging in these activities, I am 
+                 committed to advancing healthcare advocacy and community service, while promoting cultural diversity 
+                 and inclusiveness within the medical field.
+                </p>
+              </div>
+            </div>
+
+            {/* AAMCC Section */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                <Image
+                  src="/images/aamcc.png"
+                  alt="AAMCC Logo"
+                  width={200}
+                  height={200}
+                  className="mr-6"
+                />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-lg font-bold"><br /><br /><br />Arab American Cultural Center</h4>
+                <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | September 2021 – Current</p>
+                <p className="text-md" style={{ textAlign: 'justify' }}>
+                As an active member of the Arab American Cultural Center at the University of Illinois Chicago (UIC), 
+                I engage with a dynamic community dedicated to promoting the social and academic well-being of Arab American 
+                students, staff, and faculty. Our center fosters cultural awareness, facilitates dialogue, and encourages interaction 
+                among UIC's diverse groups. Through various cultural and educational programs, we strive to create an inclusive campus 
+                environment where human differences are embraced. Being part of this pioneering center—the first and only Arab American 
+                Cultural Center on a U.S. college campus—has enriched my understanding of cultural diversity and strengthened my commitment 
+                to fostering inclusivity.
+                </p>
+              </div>
+            </div>
           </div>
         );
       case "workExperience":
