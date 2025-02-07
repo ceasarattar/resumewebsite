@@ -591,13 +591,13 @@ export default function Home() {
                 Back End Development and APIs (freeCodeCamp)
               </p>
               <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Languages:</strong> Python, C, C++, C#, Java, JavaScript, SQL, F#, Ruby
+                <strong>Languages:</strong> Python, GoLang, C, C++, C#, Java, JavaScript, TypeScript, SQL, F#, Ruby
               </p>
               <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Developer and Design Tools:</strong> Git, GitHub, Jira, Postman, Maven, HTML, CSS, Google Test, Figma, Arduino
+                <strong>Developer and Design Tools:</strong> Git, GitHub, Docker, Jira, Postman, Maven, Terraform, Jenkins, Ansible, HTML, CSS, Figma, Arduino
               </p>
               <p className="text-justify w-3/4 mx-auto" style={{ textAlignLast: "center" }}>
-                <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Kafka, Express.js, Node.js, JUnit, Unity, Ruby on Rails
+                <strong>Frameworks & Technologies:</strong> AWS, MySQL, React, Hibernate, RESTful API, Azure, Kafka, Express.js, Node.js, Google Test, JUnit, Unity, Ruby on Rails
                 on Rails
               </p>
             </div>
