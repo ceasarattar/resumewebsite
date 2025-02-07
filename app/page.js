@@ -87,9 +87,11 @@ export default function Home() {
                 As a dedicated member of NAAMA NextGen at the University of Illinois Chicago (UIC), I actively 
                 contribute to a vibrant community of Arab American healthcare students. Our mission is to empower
                  members through professional development events, mentorship programs, and philanthropic initiatives, 
-                 all aimed at fostering personal and professional growth. By engaging in these activities, I am 
-                 committed to advancing healthcare advocacy and community service, while promoting cultural diversity 
-                 and inclusiveness within the medical field.
+                 all aimed at fostering personal and professional growth. My involvement in NAAMA stems from my strong 
+                 connection to the Arab American community. Being part of NAAMA has allowed me to engage with a network 
+                 that values cultural heritage and mutual support. This involvement is important to me as it reinforces 
+                 the significance of representation, collaboration, and building bridges between diverse 
+                 professional fields, including technology and healthcare.
                 </p>
               </div>
             </div>
