@@ -84,14 +84,14 @@ export default function Home() {
                 <h4 className="text-lg font-bold"><br /><br /><br />NAAMA NextGen</h4>
                 <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | August 2023 – Current</p>
                 <p className="text-md" style={{ textAlign: 'justify' }}>
-                As a dedicated member of NAAMA NextGen at the University of Illinois Chicago (UIC), I actively 
-                contribute to a vibrant community of Arab American healthcare students. Our mission is to empower
-                 members through professional development events, mentorship programs, and philanthropic initiatives, 
-                 all aimed at fostering personal and professional growth. My involvement in NAAMA stems from my strong 
-                 connection to the Arab American community. Being part of NAAMA has allowed me to engage with a network 
-                 that values cultural heritage and mutual support. This involvement is important to me as it reinforces 
-                 the significance of representation, collaboration, and building bridges between diverse 
-                 professional fields, including technology and healthcare.
+                  As a dedicated member of NAAMA NextGen at the University of Illinois Chicago (UIC), I actively
+                  contribute to a vibrant community of Arab American healthcare students. Our mission is to empower
+                  members through professional development events, mentorship programs, and philanthropic initiatives,
+                  all aimed at fostering personal and professional growth. My involvement in NAAMA stems from my strong
+                  connection to the Arab American community. Being part of NAAMA has allowed me to engage with a network
+                  that values cultural heritage and mutual support. This involvement is important to me as it reinforces
+                  the significance of representation, collaboration, and building bridges between diverse
+                  professional fields, including technology and healthcare.
                 </p>
               </div>
             </div>
@@ -111,13 +111,13 @@ export default function Home() {
                 <h4 className="text-lg font-bold"><br /><br /><br />Arab American Cultural Center</h4>
                 <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | September 2021 – Current</p>
                 <p className="text-md" style={{ textAlign: 'justify' }}>
-                As an active member of the Arab American Cultural Center at the University of Illinois Chicago (UIC), 
-                I engage with a dynamic community dedicated to promoting the social and academic well-being of Arab American 
-                students, staff, and faculty. Our center fosters cultural awareness, facilitates dialogue, and encourages interaction 
-                among UIC's diverse groups. Through various cultural and educational programs, we strive to create an inclusive campus 
-                environment where human differences are embraced. Being part of this pioneering center—the first and only Arab American 
-                Cultural Center on a U.S. college campus—has enriched my understanding of cultural diversity and strengthened my commitment 
-                to fostering inclusivity.
+                  As an active member of the Arab American Cultural Center at the University of Illinois Chicago (UIC),
+                  I engage with a dynamic community dedicated to promoting the social and academic well-being of Arab American
+                  students, staff, and faculty. Our center fosters cultural awareness, facilitates dialogue, and encourages interaction
+                  among UIC's diverse groups. Through various cultural and educational programs, we strive to create an inclusive campus
+                  environment where human differences are embraced. Being part of this pioneering center—the first and only Arab American
+                  Cultural Center on a U.S. college campus—has enriched my understanding of cultural diversity and strengthened my commitment
+                  to fostering inclusivity.
                 </p>
               </div>
             </div>
@@ -548,14 +548,17 @@ export default function Home() {
         <div className="w-2/5 p-10 bg-gray-100 flex flex-col space-y-8">
           {/* Profile Section */}
           <div className="text-center">
-            <Image
-              src="/images/profilepicture.jpg"
-              alt="Profile Picture"
-              width={400}
-              height={200}
-              objectFit="cover"
-              className="rounded-none"
-            />
+            <div className="w-64 h-64 rounded-full overflow-hidden mx-auto relative"> {/* Ensures it's a perfect circle */}
+              <Image
+                src="/images/profilepicture.jpg"
+                alt="Profile Picture"
+                width={200}
+                height={200}
+                objectFit="cover" // Ensures it fills the circular frame
+                objectPosition="center top" // Crops the top slightly
+                className="rounded-full transform translate-y-[10px] translate-x-[50px] scale-150" // Moves the image up to crop the top
+              />
+            </div>
             <h1 className="text-3xl font-bold mt-6">Ceasar Attar</h1>
             <p className="text-xl mt-4">
               University of Illinois at Chicago<br />
@@ -567,6 +570,7 @@ export default function Home() {
               <span>Chicago, IL</span>
             </div>
           </div>
+
 
           {/* About Me */}
           <section id="about" className="mt-6">
