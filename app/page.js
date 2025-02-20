@@ -551,9 +551,10 @@ export default function Home() {
             <Image
               src="/images/profilepicture.jpg"
               alt="Profile Picture"
-              width={200}
+              width={400}
               height={200}
-              className="rounded-full mx-auto"
+              objectFit="cover"
+              className="rounded-none"
             />
             <h1 className="text-3xl font-bold mt-6">Ceasar Attar</h1>
             <p className="text-xl mt-4">
