@@ -139,7 +139,7 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-lg">Digital Cash for Information Technology</h3>
+                <h3 className="font-bold text-xl">Digital Cash for Information Technology</h3>
                 <p className="text-sm text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
                 <p className="mt-2 text-justify">
                   As a backend cybersecurity intern, I significantly enhanced the security and performance of financial
@@ -162,7 +162,7 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-lg">J.P. Morgan Chase</h3>
+                <h3 className="font-bold text-xl">J.P. Morgan Chase</h3>
                 <p className="text-sm text-gray-600">Software Engineering Virtual Experience | December 2024</p>
                 <p className="mt-2 text-justify">
                   During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable
@@ -187,7 +187,7 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-lg">Paris Baguette</h3>
+                <h3 className="font-bold text-xl">Paris Baguette</h3>
                 <p className="text-sm text-gray-600">Barista | April 2024 – November 2024</p>
                 <p className="mt-2 text-justify">
                   As a barista and cashier, I efficiently managed over 500 orders per shift, demonstrating exceptional
@@ -209,7 +209,7 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-lg">The North Face</h3>
+                <h3 className="font-bold text-xl">The North Face</h3>
                 <p className="text-sm text-gray-600">Sales Associate | April 2023 – June 2024</p>
                 <p className="mt-2 text-justify">
                   As a sales associate in a busy location on Michigan Avenue, I consistently achieved high sales, averaging
@@ -231,7 +231,7 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-lg">Planet Fitness</h3>
+                <h3 className="font-bold text-xl">Planet Fitness</h3>
                 <p className="text-sm text-gray-600">Sales Associate | May 2023 – July 2023</p>
                 <p className="mt-2 text-justify">
                   My role involved opening the gym each morning and preparing the space to ensure it was clean and well-organized
