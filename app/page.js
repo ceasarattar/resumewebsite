@@ -548,7 +548,7 @@ export default function Home() {
         <div className="w-2/5 p-10 bg-gray-100 flex flex-col space-y-8">
           {/* Profile Section */}
           <div className="text-center">
-            <div className="w-72 h-72 rounded-full overflow-hidden mx-auto relative"> {/* Ensures it's a perfect circle */}
+            <div className="w-96 h-96 rounded-full overflow-hidden mx-auto relative"> {/* Ensures it's a perfect circle */}
               <Image
                 src="/images/profilepicture.jpg"
                 alt="Profile Picture"
