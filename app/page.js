@@ -252,12 +252,12 @@ export default function Home() {
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
             {/* CTA Database App */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-4">
               <Image
                 src="/images/cta.png"
                 alt="CTA Database App"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -287,12 +287,12 @@ export default function Home() {
             </div>
 
             {/* Encrypted Messenger */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/messenger.png"
                 alt="Encrypted Messenger"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -320,12 +320,12 @@ export default function Home() {
             </div>
 
             {/* Fridge Inventory */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/fridge.png"
                 alt="Fridge Inventory"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -353,12 +353,12 @@ export default function Home() {
             </div>
 
             {/* Fast Food Frenzy */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/pizza.png"
                 alt="Fast Food Frenzy"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -385,12 +385,12 @@ export default function Home() {
             </div>
 
             {/* Smart Alarm Clock */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/smartclock.png"
                 alt="Smart Alarm Clock"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -418,12 +418,12 @@ export default function Home() {
             </div>
 
             {/* Battleship */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/battleship.png"
                 alt="Battleship"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -452,12 +452,12 @@ export default function Home() {
             </div>
 
             {/* Blackjack Game */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/blackjack.png"
                 alt="Blackjack Game"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
@@ -483,12 +483,12 @@ export default function Home() {
                 </p>
               </div>
             </div>{/* Billboard Analysis */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-5">
               <Image
                 src="/images/billboardanalysis.png"
                 alt="Billboard Analysis"
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 className="ml-6"
               />
               <div className="flex-1">
