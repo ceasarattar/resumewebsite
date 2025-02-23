@@ -548,7 +548,7 @@ export default function Home() {
         <div className="w-2/5 p-10 bg-gray-100 flex flex-col space-y-8">
           {/* Profile Section */}
           <div className="text-center">
-            <div className="w-64 h-64 rounded-full overflow-hidden mx-auto relative"> {/* Ensures it's a perfect circle */}
+            <div className="w-72 h-72 rounded-full overflow-hidden mx-auto relative"> {/* Ensures it's a perfect circle */}
               <Image
                 src="/images/profilepicture.jpg"
                 alt="Profile Picture"
@@ -556,7 +556,7 @@ export default function Home() {
                 height={200}
                 objectFit="cover" // Ensures it fills the circular frame
                 objectPosition="center top" // Crops the top slightly
-                className="rounded-full transform translate-y-[10px] translate-x-[50px] scale-150" // Moves the image up to crop the top
+                className="rounded-full transform translate-y-[70px] translate-x-[50px] scale-150" // Moves the image up to crop the top
               />
             </div>
             <h1 className="text-3xl font-bold mt-6">Ceasar Attar</h1>
