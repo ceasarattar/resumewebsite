@@ -251,6 +251,40 @@ export default function Home() {
             <h2 className="text-3xl font-semibold text-center mb-4">Technical Projects</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
+
+            {/* Music Mood Analysis */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-4">
+              <Image
+                src="/images/spotify.png"
+                alt="Music Mood Analysis"
+                width={150}
+                height={150}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-bold">Music Mood Analysis</h3>
+                <p className="mt-2 text-justify">
+                The Music Mood Analysis project replicates Spotify Wrapped by analyzing user listening habits and predicting their preferred music styles 
+                with high accuracy. Developed using Python, it processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data 
+                and audio features through the Spotify API. Using machine learning models such as Random Forest and Neural Networks, it categorizes songs 
+                into moods like Happy, Sad, Energetic, and Chill by analyzing acoustic attributes, including tempo, loudness, and valence. NumPy and Pandas 
+                handle data preprocessing, outlier removal, and feature engineering to improve prediction accuracy, ensuring meaningful insights from structured 
+                datasets. The system also applies silence detection and segmentation techniques to enhance audio analysis. This project demonstrates advanced 
+                techniques in machine learning, API integration, and data analysis, providing a data-driven approach to understanding user music preferences.
+                </p>
+                <p className="mt-4">
+                  <a
+                    href="https://github.com/ceasarattar/MusicAnalysis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
+
             {/* CTA Database App */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-4">
               <Image
