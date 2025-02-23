@@ -134,8 +134,8 @@ export default function Home() {
                 <Image
                   src="/images/digitalcash.png"
                   alt="Digital Cash Logo"
-                  width={150}
-                  height={150}
+                  width={190}
+                  height={200}
                 />
               </div>
               <div className="flex-1">
@@ -152,13 +152,13 @@ export default function Home() {
               </div>
             </div>
             {/* J.P. Morgan */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-9">
               <div className="ml-auto pr-90">
                 <Image
                   src="/images/chase.png"
                   alt="J.P. Morgan Logo"
-                  width={120}
-                  height={120}
+                  width={150}
+                  height={150}
                 />
               </div>
               <div className="flex-1">
@@ -182,8 +182,8 @@ export default function Home() {
                 <Image
                   src="/images/parisbaguette.png"
                   alt="Paris Baguette Logo"
-                  width={150}
-                  height={150}
+                  width={190}
+                  height={200}
                 />
               </div>
               <div className="flex-1">
@@ -204,8 +204,8 @@ export default function Home() {
                 <Image
                   src="/images/thenorthface.png"
                   alt="The North Face Logo"
-                  width={150}
-                  height={150}
+                  width={200}
+                  height={200}
                 />
               </div>
               <div className="flex-1">
@@ -226,8 +226,8 @@ export default function Home() {
                 <Image
                   src="/images/planetfitness.png"
                   alt="Planet Fitness Logo"
-                  width={150}
-                  height={150}
+                  width={200}
+                  height={200}
                 />
               </div>
               <div className="flex-1">
