@@ -124,7 +124,7 @@ export default function Home() {
 
             {/* Community Involvement */}
             <section id="community-involvement" className="mt-12">
-              <h2 className="text-5xl font-semibold text-center mb-4">Community Involvement</h2>
+              <h2 className="text-4xl font-semibold text-center mb-4">Community Involvement</h2>
               <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
               {/* Earth Day Cleanup Volunteer */}
