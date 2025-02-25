@@ -14,7 +14,7 @@ export default function Home() {
         return (
           <div className="p-6">
             {/* Title */}
-            <h2 className="text-3xl font-semibold text-center mb-4">Educational Experience</h2>
+            <h2 className="text-5xl font-semibold text-center mb-4">Educational Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
             {/* UIC Logo */}
@@ -30,13 +30,13 @@ export default function Home() {
 
             {/* Description */}
             <div className="mb-8" style={{ textAlign: 'justify' }}>
-              <p className="text-md leading-relaxed mb-4">
+              <p className="text-xl leading-relaxed mb-4">
                 As a student at the University of Illinois at Chicago pursuing a Bachelor of Science in Computer Science,
                 I have immersed myself in an academically rigorous environment that prioritizes both theoretical knowledge and
                 practical skills. My coursework has covered a wide range of topics from algorithms and operating systems to database
                 management, each pushing me to sharpen my problem-solving skills and embrace a thorough approach to software development.
               </p>
-              <p className="text-md leading-relaxed">
+              <p className="text-xl leading-relaxed">
                 My studies have also provided hands-on experience in video game development, physical computing, and systems architecture,
                 enabling me to connect theory to real-world applications. Through projects and collaborative assignments, I have
                 developed technical skills in analyzing complex systems, optimizing performance, and maintaining scalability.
@@ -57,9 +57,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h4 className="text-lg font-bold"><br /><br /><br />Association for Computing Machinery</h4>
-                <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | September 2023 – Current</p>
-                <p className="text-md" style={{ textAlign: 'justify' }}>
+                <h4 className="text-2xl font-bold"><br /><br /><br />Association for Computing Machinery</h4>
+                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | September 2023 – Current</p>
+                <p className="text-xl" style={{ textAlign: 'justify' }}>
                   As a member of ACM, I have actively contributed to building a community of computing enthusiasts on campus.
                   I have managed server operations, ensuring high uptime for student projects and events, and organized workshops
                   to enhance members' technical skills. My role in organizing Special Interest Group events and hackathons has promoted collaboration
@@ -81,9 +81,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h4 className="text-lg font-bold"><br /><br /><br />NAAMA NextGen</h4>
-                <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | August 2023 – Current</p>
-                <p className="text-md" style={{ textAlign: 'justify' }}>
+                <h4 className="text-2xl font-bold"><br /><br /><br />NAAMA NextGen</h4>
+                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | August 2023 – Current</p>
+                <p className="text-xl" style={{ textAlign: 'justify' }}>
                   As a dedicated member of NAAMA NextGen at the University of Illinois Chicago (UIC), I actively
                   contribute to a vibrant community of Arab American healthcare students. Our mission is to empower
                   members through professional development events, mentorship programs, and philanthropic initiatives,
@@ -108,9 +108,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h4 className="text-lg font-bold"><br /><br /><br />Arab American Cultural Center</h4>
-                <p className="text-sm text-gray-600 mb-2">University of Illinois Chapter | September 2021 – Current</p>
-                <p className="text-md" style={{ textAlign: 'justify' }}>
+                <h4 className="text-2xl font-bold"><br /><br /><br />Arab American Cultural Center</h4>
+                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | September 2021 – Current</p>
+                <p className="text-xl" style={{ textAlign: 'justify' }}>
                   As an active member of the Arab American Cultural Center at the University of Illinois Chicago (UIC),
                   I engage with a dynamic community dedicated to promoting the social and academic well-being of Arab American
                   students, staff, and faculty. Our center fosters cultural awareness, facilitates dialogue, and encourages interaction
@@ -124,7 +124,7 @@ export default function Home() {
 
             {/* Community Involvement */}
             <section id="community-involvement" className="mt-12">
-              <h2 className="text-3xl font-semibold text-center mb-4">Community Involvement</h2>
+              <h2 className="text-5xl font-semibold text-center mb-4">Community Involvement</h2>
               <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
               {/* Earth Day Cleanup Volunteer */}
@@ -139,9 +139,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-bold"><br /><br /><br />Earth Day Cleanup Volunteer</h4>
-                  <p className="text-sm text-gray-600 mb-2">Chicago Park District | Aug 2021 – Present</p>
-                  <p className="text-md leading-relaxed" style={{ textAlign: 'justify' }}>
+                  <h4 className="text-2xl font-bold"><br /><br /><br />Earth Day Cleanup Volunteer</h4>
+                  <p className="text-xl text-gray-600 mb-2">Chicago Park District | Aug 2021 – Present</p>
+                  <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
                     Volunteered with the Chicago Park District and Friends of the Parks for the annual Earth Day Cleanup.
                     Helped improve local parks by picking up litter, mulching, and caring for plants to support a healthier
                     environment. Worked alongside community members to keep public spaces clean and spread awareness
@@ -162,9 +162,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-bold"><br /><br /><br />Shelter Volunteer</h4>
-                  <p className="text-sm text-gray-600 mb-2">Chicago Canine Rescue | Sep 2021 – Present</p>
-                  <p className="text-md leading-relaxed" style={{ textAlign: 'justify' }}>
+                  <h4 className="text-2xl font-bold"><br /><br /><br />Shelter Volunteer</h4>
+                  <p className="text-xl text-gray-600 mb-2">Chicago Canine Rescue | Sep 2021 – Present</p>
+                  <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
                     Spent time caring for shelter dogs at Chicago Canine Rescue by walking, feeding, and playing with them to support
                     their well-being. Helped with daily shelter tasks like cleaning, laundry, and dishwashing to maintain a safe and
                     comfortable space for the animals. Followed shelter protocols and worked with staff to provide the best care possible.
@@ -184,9 +184,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-bold"><br /><br /><br />Volunteer</h4>
-                  <p className="text-sm text-gray-600 mb-2">Ronald McDonald House Charities | Sep 2021 – Present</p>
-                  <p className="text-md leading-relaxed" style={{ textAlign: 'justify' }}>
+                  <h4 className="text-2xl font-bold"><br /><br /><br />Volunteer</h4>
+                  <p className="text-xl text-gray-600 mb-2">Ronald McDonald House Charities | Sep 2021 – Present</p>
+                  <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
                     Helped create a welcoming space for families staying at Ronald McDonald House by baking cookies and preparing
                     snacks to bring a sense of home. Assembled and handed out care packages for children to brighten their day.
                     Worked with other volunteers to maintain a warm and supportive atmosphere for families going through difficult times.
@@ -202,7 +202,7 @@ export default function Home() {
       case "workExperience":
         return (
           <div className="p-6">
-            <h2 className="text-3xl font-semibold text-center mb-4">Work Experience</h2>
+            <h2 className="text-5xl font-semibold text-center mb-4">Work Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
             {/* Digital Cash */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
@@ -215,9 +215,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-xl">Digital Cash for Information Technology</h3>
-                <p className="text-sm text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
-                <p className="mt-2 text-justify">
+                <h3 className="font-bold text-2xl">Digital Cash for Information Technology</h3>
+                <p className="text-xl text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
+                <p className="mt-2 text-xl justify">
                   As a backend cybersecurity intern, I significantly enhanced the security and performance of financial
                   applications by implementing advanced encryption protocols and integrating RESTful APIs. My solutions
                   included using AES and RSA encryption methods for secure handling of financial data, alongside utilizing
@@ -238,9 +238,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-xl">J.P. Morgan Chase</h3>
-                <p className="text-sm text-gray-600">Software Engineering Virtual Experience | December 2024</p>
-                <p className="mt-2 text-justify">
+                <h3 className="font-bold text-2xl">J.P. Morgan Chase</h3>
+                <p className="text-xl text-gray-600">Software Engineering Virtual Experience | December 2024</p>
+                <p className="mt-2 text-xl justify">
                   During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable
                   smooth communication between frontend and backend components, ensuring scalability and independent operation
                   of processes. I integrated an in-memory H2 database to store and validate transaction records in real-time,
@@ -263,9 +263,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-xl">Paris Baguette</h3>
-                <p className="text-sm text-gray-600">Barista | April 2024 – November 2024</p>
-                <p className="mt-2 text-justify">
+                <h3 className="font-bold text-2xl">Paris Baguette</h3>
+                <p className="text-xl text-gray-600">Barista | April 2024 – November 2024</p>
+                <p className="mt-2 text-xl justify">
                   As a barista and cashier, I efficiently managed over 500 orders per shift, demonstrating exceptional
                   customer service and operational skills. I oversaw stock and inventory, ensuring supplies were well-organized
                   and readily available, which was crucial for maintaining the flow of a busy environment. Additionally, I was
@@ -285,9 +285,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-xl">The North Face</h3>
-                <p className="text-sm text-gray-600">Sales Associate | April 2023 – June 2024</p>
-                <p className="mt-2 text-justify">
+                <h3 className="font-bold text-2xl">The North Face</h3>
+                <p className="text-xl text-gray-600">Sales Associate | April 2023 – June 2024</p>
+                <p className="mt-2 text-xl justify">
                   As a sales associate in a busy location on Michigan Avenue, I consistently achieved high sales, averaging
                   over $3,000 daily. My role included opening and closing the store, handling online orders, and managing stock
                   to ensure availability. I was also responsible for creating visually appealing merchandise displays
@@ -307,9 +307,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-xl">Planet Fitness</h3>
-                <p className="text-sm text-gray-600">Sales Associate | May 2023 – July 2023</p>
-                <p className="mt-2 text-justify">
+                <h3 className="font-bold text-2xl">Planet Fitness</h3>
+                <p className="text-xl text-gray-600">Sales Associate | May 2023 – July 2023</p>
+                <p className="mt-2 text-xl justify">
                   My role involved opening the gym each morning and preparing the space to ensure it was clean and well-organized
                   for the day ahead. I supported gym members by creating personalized fitness plans, explaining membership options, and leading
                   detailed tours of our facilities. At the front desk, I managed daily operations, efficiently handling inquiries and maintaining
@@ -324,7 +324,7 @@ export default function Home() {
       case "technicalProjects":
         return (
           <div className="p-6">
-            <h2 className="text-3xl font-semibold text-center mb-4">Technical Projects</h2>
+            <h2 className="text-5xl font-semibold text-center mb-4">Technical Projects</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
 
@@ -338,8 +338,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Music Mood Analysis</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Music Mood Analysis</h3>
+                <p className="mt-2 text-xl justify">
                   The Music Mood Analysis project replicates Spotify Wrapped by analyzing user listening habits and predicting their preferred music styles
                   with high accuracy. Developed using Python, it processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data
                   and audio features through the Spotify API. Using machine learning models such as Random Forest and Neural Networks, it categorizes songs
@@ -348,7 +348,7 @@ export default function Home() {
                   datasets. The system also applies silence detection and segmentation techniques to enhance audio analysis. This project demonstrates advanced
                   techniques in machine learning, API integration, and data analysis, providing a data-driven approach to understanding user music preferences.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-lg">
                   <a
                     href="https://github.com/ceasarattar/MusicAnalysis"
                     target="_blank"
@@ -371,8 +371,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">CTA Database App</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">CTA Database App</h3>
+                <p className="mt-2 text-xl justify">
                   The CTA Database App is a Python-based console application that leverages SQL for backend data
                   management and Matplotlib for dynamic data visualization. This utility enables users to interact
                   with Chicago Transit Authority (CTA) data through nine versatile commands, allowing for advanced
@@ -383,7 +383,7 @@ export default function Home() {
                   the integration of data engineering and visualization techniques to provide valuable insights into CTA's
                   transit system, making it a powerful resource for operational analysis.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/CTA-Database-App"
                     target="_blank"
@@ -406,8 +406,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Encrypted Messenger</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Encrypted Messenger</h3>
+                <p className="mt-2 text-xl justify">
                   The Encrypted Messenger is a secure communication application developed using the Spring Framework, adhering
                   to the Single Responsibility Principle to ensure each class has a distinct function. It employs a RESTful API
                   architecture, facilitating operations such as POST, GET, and DELETE, which can be tested using tools like Postman.
@@ -416,7 +416,7 @@ export default function Home() {
                   Standard (AES) before transmission, ensuring data confidentiality during transit. Upon reaching the server, messages
                   are decrypted and stored securely in the database.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/ServerClientSpring"
                     target="_blank"
@@ -439,8 +439,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Fridge Inventory</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Fridge Inventory</h3>
+                <p className="mt-2 text-xl justify">
                   The Fridge Inventory application is designed to help users efficiently manage the contents of a shared refrigerator,
                   such as those found in restaurants. Developed using JavaScript with Node.js and Express.js for the backend, and React
                   for the frontend, it provides a seamless interface for tracking and organizing fridge items. The application utilizes
@@ -449,7 +449,7 @@ export default function Home() {
                   item entry is associated with the user who added it, promoting accountability and transparency. This system enhances the
                   management of shared refrigerator contents by providing clear insights into inventory status and user interactions.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/FridgeInventory/tree/main"
                     target="_blank"
@@ -472,8 +472,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Fast Food Frenzy</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Fast Food Frenzy</h3>
+                <p className="mt-2 text-xl justify">
                   Fast Food Frenzy is a Unity-based simulation game developed in C# that challenges players to manage a
                   fast-food restaurant under increasing levels of difficulty. The game leverages AI constructs to control
                   customer behavior and game mechanics, creating a dynamic and engaging experience. Advanced game development
@@ -481,7 +481,7 @@ export default function Home() {
                   to deliver an immersive and interactive environment. Throughout development, multiple testing sessions were
                   conducted with user feedback to refine gameplay mechanics, ensuring a smooth and enjoyable experience across alpha, beta, and final releases.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/FastFoodFrenzy"
                     target="_blank"
@@ -504,8 +504,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Smart Alarm Clock</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Smart Alarm Clock</h3>
+                <p className="mt-2 text-xl justify">
                   The Smart Alarm Clock is an Arduino-based project designed to combine real-time environmental monitoring with customizable alarm functionalities.
                   Developed using C++ for microcontroller programming, the system integrates components such as an LCD display, temperature and humidity sensors,
                   and wireless communication modules to provide users with timely environmental data and notifications. The clock continuously measures and displays
@@ -514,7 +514,7 @@ export default function Home() {
                   enable remote sensor data collection and alarm triggering. This project highlights expertise in embedded systems and hardware-software development,
                   offering a practical example of leveraging environmental data to create a smarter and more responsive alarm clock.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/SmartAlarmClock"
                     target="_blank"
@@ -537,8 +537,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Battleship Game</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Battleship Game</h3>
+                <p className="mt-2 text-xl justify">
                   The Battleship Client-Server Application is a Java-based implementation of the classic Battleship game,
                   designed to facilitate multiplayer gameplay over a network using a client-server architecture. The server
                   component manages game sessions and player interactions, while the client provides an intuitive interface
@@ -548,7 +548,7 @@ export default function Home() {
                   in network programming, concurrent processing, and software design principles, offering an engaging platform for users
                   to enjoy the Battleship game remotely.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/BattleshipClientServer"
                     target="_blank"
@@ -571,8 +571,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Blackjack Game</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Blackjack Game</h3>
+                <p className="mt-2 text-xl justify">
                   The Blackjack Game is a Java-based application that simulates the classic card game, featuring an
                   interactive JavaFX GUI for an engaging user experience. Developed using object-oriented programming
                   principles, the project includes modular design with distinct classes for the deck, players, and game logic.
@@ -581,7 +581,7 @@ export default function Home() {
                   enhances gameplay by providing an intuitive interface, complete with dynamic visuals for cards, scores,
                   and player actions, creating an immersive experience.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/BlackjackGame"
                     target="_blank"
@@ -602,8 +602,8 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-bold">Billboard Analysis</h3>
-                <p className="mt-2 text-justify">
+                <h3 className="text-2xl font-bold">Billboard Analysis</h3>
+                <p className="mt-2 text-xl justify">
                   The Billboard Analysis Program is a C++ application designed to analyze Billboard chart data from 1960 to 2020,
                   offering insights into musical trends, artist performance, and song popularity across decades. The program utilizes
                   structured data management with structs to represent entries and integrates CSV parsing for seamless data import.
@@ -612,7 +612,7 @@ export default function Home() {
                   climbs. Users can filter results by decade, year, or artist name, enhancing the flexibility of the tool. By leveraging
                   efficient data structures, the program delivers actionable insights into chart performance.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 text-xl">
                   <a
                     href="https://github.com/ceasarattar/Billboard-Analysis"
                     target="_blank"
@@ -669,13 +669,13 @@ export default function Home() {
                 className="rounded-full transform translate-y-[10px] translate-x-[75px] scale-150" // Moves the image up to crop the top
               />
             </div>
-            <h1 className="text-3xl font-bold mt-6">Ceasar Attar</h1>
-            <p className="text-xl mt-4">
+            <h1 className="text-5xl font-bold mt-6">Ceasar Attar</h1>
+            <p className="text-2xl mt-4">
               University of Illinois at Chicago<br />
               Bachelor of Science in Computer Science<br />
               Expected Graduation May 2025
             </p>
-            <div className="flex items-center justify-center gap-3">
+            <div className="text-xl flex items-center justify-center gap-3">
               <FaMapMarkerAlt className="text-black" />
               <span>Chicago, IL</span>
             </div>
@@ -683,7 +683,7 @@ export default function Home() {
 
 
           {/* About Me */}
-          <section id="about" className="mt-6">
+          <section id="about" className="text-xl mt-6">
             <p className="text-justify" style={{ textAlignLast: 'center' }}>
               As a senior Computer Science student, my academic and professional journey centers
               around backend development and cybersecurity. With a strong foundation in software and
@@ -694,24 +694,24 @@ export default function Home() {
 
           {/* Skills and Expertise */}
           <section id="skills" className="mt-6">
-            <h2 className="text-2xl font-semibold text-center mb-2">Skills and Expertise</h2>
+            <h2 className="text-3xl font-semibold text-center mb-2">Skills and Expertise</h2>
             <hr className="w-80 mx-auto border-black mb-4" />
             <div className="flex flex-col items-center text-center w-full">
-              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
+              <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Skills:</strong> Project Management, Time Management, Teamwork and Collaboration,
                 Critical Thinking, Problem Solving, Attention to Detail, Creativity
               </p>
-              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
+              <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
                 Back End Development and APIs (freeCodeCamp)
               </p>
-              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
+              <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Languages:</strong> Python, Go, C, C++, C#, Scala, Java, JavaScript, TypeScript, Kotlin, SQL, F#, Ruby
               </p>
-              <p className="text-justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
+              <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Developer and Design Tools:</strong> Git, GitHub, Docker, Jira, Postman, Scikit-learn, SciPy, Pandas, NumPy, Maven, Terraform, Jenkins, Ansible, HTML, CSS, Figma, Arduino
               </p>
-              <p className="text-justify w-3/4 mx-auto" style={{ textAlignLast: "center" }}>
+              <p className="text-xl justify w-3/4 mx-auto" style={{ textAlignLast: "center" }}>
                 <strong>Frameworks & Technologies:</strong> AWS, Azure, MySQL, React, Hibernate, RESTful API, Spring Boot, Kafka, Next.js, Express.js, Node.js, Google Test, JUnit, Unity, TensorFlow, PyTorch, Ruby on Rails
                 on Rails
               </p>
@@ -720,9 +720,9 @@ export default function Home() {
 
           {/* Contact and Profiles */}
           <section id="contact" className="mt-8">
-            <h2 className="text-2xl font-semibold text-center mb-2">Contact and Profiles</h2>
+            <h2 className="text-3xl font-semibold text-center mb-2">Contact and Profiles</h2>
             <hr className="w-80 mx-auto border-black mb-4" />
-            <div className="flex flex-col items-center text-center w-full">
+            <div className="flex flex-col items-center text-2xl center w-full">
               <div className="flex items-center justify-center w-full mb-4">
                 <FaEnvelope className="text-black mr-3" />
                 <a href="mailto:ceasarattar03@gmail.com" className="text-blue-500 underline">
@@ -771,21 +771,21 @@ export default function Home() {
           <div className="flex justify-center gap-6 p-4 bg-gray-200 rounded-lg mb-6">
             <button
               onClick={() => setActiveTab("educationalExperience")}
-              className={`text-lg font-medium ${activeTab === "educationalExperience" ? "text-black" : "text-gray-500"
+              className={`text-2xl font-medium ${activeTab === "educationalExperience" ? "text-black" : "text-gray-500"
                 }`}
             >
               Educational Experience
             </button>
             <button
               onClick={() => setActiveTab("workExperience")}
-              className={`text-lg font-medium ${activeTab === "workExperience" ? "text-black" : "text-gray-500"
+              className={`text-2xl font-medium ${activeTab === "workExperience" ? "text-black" : "text-gray-500"
                 }`}
             >
               Work Experience
             </button>
             <button
               onClick={() => setActiveTab("technicalProjects")}
-              className={`text-lg font-medium ${activeTab === "technicalProjects" ? "text-black" : "text-gray-500"
+              className={`text-2xl font-medium ${activeTab === "technicalProjects" ? "text-black" : "text-gray-500"
                 }`}
             >
               Technical Projects
