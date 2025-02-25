@@ -6,7 +6,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState("workExperience");
+  const [activeTab, setActiveTab] = useState("educationalExperience");
 
   const renderContent = () => {
     switch (activeTab) {
@@ -264,13 +264,13 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="text-xl font-bold">Music Mood Analysis</h3>
                 <p className="mt-2 text-justify">
-                The Music Mood Analysis project replicates Spotify Wrapped by analyzing user listening habits and predicting their preferred music styles 
-                with high accuracy. Developed using Python, it processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data 
-                and audio features through the Spotify API. Using machine learning models such as Random Forest and Neural Networks, it categorizes songs 
-                into moods like Happy, Sad, Energetic, and Chill by analyzing acoustic attributes, including tempo, loudness, and valence. NumPy and Pandas 
-                handle data preprocessing, outlier removal, and feature engineering to improve prediction accuracy, ensuring meaningful insights from structured 
-                datasets. The system also applies silence detection and segmentation techniques to enhance audio analysis. This project demonstrates advanced 
-                techniques in machine learning, API integration, and data analysis, providing a data-driven approach to understanding user music preferences.
+                  The Music Mood Analysis project replicates Spotify Wrapped by analyzing user listening habits and predicting their preferred music styles
+                  with high accuracy. Developed using Python, it processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data
+                  and audio features through the Spotify API. Using machine learning models such as Random Forest and Neural Networks, it categorizes songs
+                  into moods like Happy, Sad, Energetic, and Chill by analyzing acoustic attributes, including tempo, loudness, and valence. NumPy and Pandas
+                  handle data preprocessing, outlier removal, and feature engineering to improve prediction accuracy, ensuring meaningful insights from structured
+                  datasets. The system also applies silence detection and segmentation techniques to enhance audio analysis. This project demonstrates advanced
+                  techniques in machine learning, API integration, and data analysis, providing a data-driven approach to understanding user music preferences.
                 </p>
                 <p className="mt-4">
                   <a
@@ -641,6 +641,59 @@ export default function Home() {
               </p>
             </div>
           </section>
+
+          {/* Community Involvement */}
+          <section id="community-involvement" className="mt-6">
+            <h2 className="text-2xl font-semibold text-center mb-2">Community Involvement</h2>
+            <hr className="w-80 mx-auto border-black mb-4" />
+            <div className="flex flex-col items-center text-center w-full">
+
+              {/* Earth Day Cleanup Volunteer */}
+              <div className="w-3/4 mx-auto mb-6 flex items-start space-x-4">
+                <img src="/images/earthday.png" alt="Earth Day Cleanup" className="w-12 h-12 rounded-full" />
+                <div className="text-left">
+                  <h3 className="text-lg font-semibold">Earth Day Cleanup Volunteer</h3>
+                  <p className="text-sm text-gray-600">Chicago Park District | Aug 2021 – Present</p>
+                  <p className="text-justify">
+                    Volunteered with the Chicago Park District and Friends of the Parks for the annual Earth Day Cleanup.
+                    Helped improve local parks by picking up litter, mulching, and caring for plants to support a healthier environment.
+                    Worked alongside community members to keep public spaces clean and spread awareness about sustainability.
+                  </p>
+                </div>
+              </div>
+
+              {/* Shelter Volunteer */}
+              <div className="w-3/4 mx-auto mb-6 flex items-start space-x-4">
+                <img src="/images/caninerescue.png" alt="Chicago Canine Rescue" className="w-12 h-12 rounded-full" />
+                <div className="text-left">
+                  <h3 className="text-lg font-semibold">Shelter Volunteer</h3>
+                  <p className="text-sm text-gray-600">Chicago Canine Rescue | Sep 2021 – Present</p>
+                  <p className="text-justify">
+                    Spent time caring for shelter dogs at Chicago Canine Rescue by walking, feeding, and playing with them to support
+                    their well-being. Helped with daily shelter tasks like cleaning, laundry, and dishwashing to maintain a safe and comfortable
+                    space for the animals. Followed shelter protocols and worked with staff to provide the best care possible.
+                  </p>
+                </div>
+              </div>
+
+              {/* Ronald McDonald House Volunteer */}
+              <div className="w-3/4 mx-auto mb-6 flex items-start space-x-4">
+                <img src="/images/rmhc.png" alt="Ronald McDonald House Charities" className="w-12 h-12 rounded-full" />
+                <div className="text-left">
+                  <h3 className="text-lg font-semibold">Volunteer</h3>
+                  <p className="text-sm text-gray-600">Ronald McDonald House Charities | Sep 2021 – Present</p>
+                  <p className="text-justify">
+                    Helped create a welcoming space for families staying at Ronald McDonald House by baking cookies and preparing snacks
+                    to bring a sense of home. Assembled and handed out care packages for children to brighten their day. Worked with other
+                    volunteers to maintain a warm and supportive atmosphere for families going through difficult times.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+
 
 
           {/* Contact and Profiles */}
