@@ -14,7 +14,7 @@ export default function Home() {
         return (
           <div className="p-6">
             {/* Title */}
-            <h2 className="text-5xl font-semibold text-center mb-4">Educational Experience</h2>
+            <h2 className="text-4xl font-semibold text-center mb-4">Educational Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
             {/* UIC Logo */}
@@ -202,7 +202,7 @@ export default function Home() {
       case "workExperience":
         return (
           <div className="p-6">
-            <h2 className="text-5xl font-semibold text-center mb-4">Work Experience</h2>
+            <h2 className="text-4xl font-semibold text-center mb-4">Work Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
             {/* Digital Cash */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
@@ -324,7 +324,7 @@ export default function Home() {
       case "technicalProjects":
         return (
           <div className="p-6">
-            <h2 className="text-5xl font-semibold text-center mb-4">Technical Projects</h2>
+            <h2 className="text-4xl font-semibold text-center mb-4">Technical Projects</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
 
@@ -771,21 +771,21 @@ export default function Home() {
           <div className="flex justify-center gap-6 p-4 bg-gray-200 rounded-lg mb-6">
             <button
               onClick={() => setActiveTab("educationalExperience")}
-              className={`text-2xl font-medium ${activeTab === "educationalExperience" ? "text-black" : "text-gray-500"
+              className={`text-xl font-medium ${activeTab === "educationalExperience" ? "text-black" : "text-gray-500"
                 }`}
             >
               Educational Experience
             </button>
             <button
               onClick={() => setActiveTab("workExperience")}
-              className={`text-2xl font-medium ${activeTab === "workExperience" ? "text-black" : "text-gray-500"
+              className={`text-xl font-medium ${activeTab === "workExperience" ? "text-black" : "text-gray-500"
                 }`}
             >
               Work Experience
             </button>
             <button
               onClick={() => setActiveTab("technicalProjects")}
-              className={`text-2xl font-medium ${activeTab === "technicalProjects" ? "text-black" : "text-gray-500"
+              className={`text-xl font-medium ${activeTab === "technicalProjects" ? "text-black" : "text-gray-500"
                 }`}
             >
               Technical Projects
