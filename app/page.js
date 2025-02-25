@@ -142,10 +142,12 @@ export default function Home() {
                   <h4 className="text-2xl font-bold"><br /><br /><br />Earth Day Cleanup Volunteer</h4>
                   <p className="text-xl text-gray-600 mb-2">Chicago Park District | Aug 2021 – Present</p>
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
-                    Volunteered with the Chicago Park District and Friends of the Parks for the annual Earth Day Cleanup.
-                    Helped improve local parks by picking up litter, mulching, and caring for plants to support a healthier
-                    environment. Worked alongside community members to keep public spaces clean and spread awareness
-                    about sustainability.
+                  As a volunteer for the annual Earth Day Cleanup, I have actively contributed to maintaining and improving Chicago’s 
+                  parks in collaboration with the Chicago Park District and Friends of the Parks. My responsibilities have included 
+                  picking up litter, mulching trees, and caring for plants to support a cleaner, greener environment. Working alongside 
+                  local residents and other volunteers, I have helped promote sustainability efforts and raise awareness about the 
+                  importance of protecting public spaces. This experience has strengthened my teamwork and leadership skills while 
+                  deepening my understanding of environmental conservation.
                   </p>
                 </div>
               </div>
@@ -165,9 +167,13 @@ export default function Home() {
                   <h4 className="text-2xl font-bold"><br /><br /><br />Shelter Volunteer</h4>
                   <p className="text-xl text-gray-600 mb-2">Chicago Canine Rescue | Sep 2021 – Present</p>
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
-                    Spent time caring for shelter dogs at Chicago Canine Rescue by walking, feeding, and playing with them to support
-                    their well-being. Helped with daily shelter tasks like cleaning, laundry, and dishwashing to maintain a safe and
-                    comfortable space for the animals. Followed shelter protocols and worked with staff to provide the best care possible.
+                  As a dedicated volunteer at Chicago Canine Rescue, I have played a key role in ensuring the well-being of shelter 
+                  dogs by walking, feeding, and engaging them in enrichment activities. Beyond direct animal care, I have assisted 
+                  with essential in-shelter tasks such as cleaning kennels, washing dishes, and organizing supplies to maintain a 
+                  hygienic and comfortable space for the animals. Through my time at the shelter, I have developed strong communication 
+                  skills by working closely with staff and fellow volunteers to ensure the best possible care for rescued dogs. This 
+                  role has reinforced my commitment to animal welfare and taught me the importance of patience and responsibility in 
+                  a fast-paced environment.
                   </p>
                 </div>
               </div>
@@ -187,9 +193,11 @@ export default function Home() {
                   <h4 className="text-2xl font-bold"><br /><br /><br />Volunteer</h4>
                   <p className="text-xl text-gray-600 mb-2">Ronald McDonald House Charities | Sep 2021 – Present</p>
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
-                    Helped create a welcoming space for families staying at Ronald McDonald House by baking cookies and preparing
-                    snacks to bring a sense of home. Assembled and handed out care packages for children to brighten their day.
-                    Worked with other volunteers to maintain a warm and supportive atmosphere for families going through difficult times.
+                  Through my work at Ronald McDonald House Charities, I have contributed to creating a warm and welcoming environment for 
+                  families staying at the house during difficult times. I have helped prepare fresh-baked cookies and nutritious snacks to 
+                  provide families with a small sense of comfort and normalcy. Additionally, I have assembled and distributed care packages 
+                  and goody bags to brighten the days of children receiving medical treatment. By working alongside other volunteers, I have 
+                  helped maintain a supportive and uplifting atmosphere, gaining valuable experience in teamwork, empathy, and community service.
                   </p>
                 </div>
               </div>
