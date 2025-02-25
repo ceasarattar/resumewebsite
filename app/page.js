@@ -121,8 +121,84 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            {/* Community Involvement */}
+            <section id="community-involvement" className="mt-12">
+              <h2 className="text-3xl font-semibold text-center mb-4">Community Involvement</h2>
+              <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
+
+              {/* Earth Day Cleanup Volunteer */}
+              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+                <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                  <Image
+                    src="/images/earthday.png"
+                    alt="Earth Day Cleanup"
+                    width={200}
+                    height={200}
+                    className="mr-6"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-bold"><br /><br /><br />Earth Day Cleanup Volunteer</h4>
+                  <p className="text-sm text-gray-600 mb-2">Chicago Park District | Aug 2021 – Present</p>
+                  <p className="text-md leading-relaxed" style={{ textAlign: 'justify' }}>
+                    Volunteered with the Chicago Park District and Friends of the Parks for the annual Earth Day Cleanup.
+                    Helped improve local parks by picking up litter, mulching, and caring for plants to support a healthier
+                    environment. Worked alongside community members to keep public spaces clean and spread awareness
+                    about sustainability.
+                  </p>
+                </div>
+              </div>
+
+              {/* Shelter Volunteer */}
+              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+                <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                  <Image
+                    src="/images/caninerescue.png"
+                    alt="Chicago Canine Rescue"
+                    width={200}
+                    height={200}
+                    className="mr-6"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-bold"><br /><br /><br />Shelter Volunteer</h4>
+                  <p className="text-sm text-gray-600 mb-2">Chicago Canine Rescue | Sep 2021 – Present</p>
+                  <p className="text-md leading-relaxed" style={{ textAlign: 'justify' }}>
+                    Spent time caring for shelter dogs at Chicago Canine Rescue by walking, feeding, and playing with them to support
+                    their well-being. Helped with daily shelter tasks like cleaning, laundry, and dishwashing to maintain a safe and
+                    comfortable space for the animals. Followed shelter protocols and worked with staff to provide the best care possible.
+                  </p>
+                </div>
+              </div>
+
+              {/* Ronald McDonald House Volunteer */}
+              <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+                <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                  <Image
+                    src="/images/rmhc.png"
+                    alt="Ronald McDonald House Charities"
+                    width={200}
+                    height={200}
+                    className="mr-6"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-bold"><br /><br /><br />Volunteer</h4>
+                  <p className="text-sm text-gray-600 mb-2">Ronald McDonald House Charities | Sep 2021 – Present</p>
+                  <p className="text-md leading-relaxed" style={{ textAlign: 'justify' }}>
+                    Helped create a welcoming space for families staying at Ronald McDonald House by baking cookies and preparing
+                    snacks to bring a sense of home. Assembled and handed out care packages for children to brighten their day.
+                    Worked with other volunteers to maintain a warm and supportive atmosphere for families going through difficult times.
+                  </p>
+                </div>
+              </div>
+
+            </section>
+
           </div>
         );
+
       case "workExperience":
         return (
           <div className="p-6">
@@ -641,60 +717,6 @@ export default function Home() {
               </p>
             </div>
           </section>
-
-          {/* Community Involvement */}
-          <section id="community-involvement" className="mt-6">
-            <h2 className="text-2xl font-semibold text-center mb-2">Community Involvement</h2>
-            <hr className="w-80 mx-auto border-black mb-4" />
-            <div className="flex flex-col items-center text-center w-full">
-
-              {/* Earth Day Cleanup Volunteer */}
-              <div className="w-3/4 mx-auto mb-6 flex items-start space-x-4">
-                <img src="/images/earthday.png" alt="Earth Day Cleanup" className="w-12 h-12 rounded-full" />
-                <div className="text-left">
-                  <h3 className="text-lg font-semibold">Earth Day Cleanup Volunteer</h3>
-                  <p className="text-sm text-gray-600">Chicago Park District | Aug 2021 – Present</p>
-                  <p className="text-justify">
-                    Volunteered with the Chicago Park District and Friends of the Parks for the annual Earth Day Cleanup.
-                    Helped improve local parks by picking up litter, mulching, and caring for plants to support a healthier environment.
-                    Worked alongside community members to keep public spaces clean and spread awareness about sustainability.
-                  </p>
-                </div>
-              </div>
-
-              {/* Shelter Volunteer */}
-              <div className="w-3/4 mx-auto mb-6 flex items-start space-x-4">
-                <img src="/images/caninerescue.png" alt="Chicago Canine Rescue" className="w-12 h-12 rounded-full" />
-                <div className="text-left">
-                  <h3 className="text-lg font-semibold">Shelter Volunteer</h3>
-                  <p className="text-sm text-gray-600">Chicago Canine Rescue | Sep 2021 – Present</p>
-                  <p className="text-justify">
-                    Spent time caring for shelter dogs at Chicago Canine Rescue by walking, feeding, and playing with them to support
-                    their well-being. Helped with daily shelter tasks like cleaning, laundry, and dishwashing to maintain a safe and comfortable
-                    space for the animals. Followed shelter protocols and worked with staff to provide the best care possible.
-                  </p>
-                </div>
-              </div>
-
-              {/* Ronald McDonald House Volunteer */}
-              <div className="w-3/4 mx-auto mb-6 flex items-start space-x-4">
-                <img src="/images/rmhc.png" alt="Ronald McDonald House Charities" className="w-12 h-12 rounded-full" />
-                <div className="text-left">
-                  <h3 className="text-lg font-semibold">Volunteer</h3>
-                  <p className="text-sm text-gray-600">Ronald McDonald House Charities | Sep 2021 – Present</p>
-                  <p className="text-justify">
-                    Helped create a welcoming space for families staying at Ronald McDonald House by baking cookies and preparing snacks
-                    to bring a sense of home. Assembled and handed out care packages for children to brighten their day. Worked with other
-                    volunteers to maintain a warm and supportive atmosphere for families going through difficult times.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </section>
-
-
-
 
           {/* Contact and Profiles */}
           <section id="contact" className="mt-8">
