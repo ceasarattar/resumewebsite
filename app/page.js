@@ -195,15 +195,13 @@ export default function Home() {
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
                   Through my work at Ronald McDonald House Charities, I have contributed to creating a warm and welcoming environment for 
                   families staying at the house during difficult times. I have helped prepare fresh-baked cookies and nutritious snacks to 
-                  provide families with a small sense of comfort and normalcy. Additionally, I have assembled and distributed care packages 
+                  provide families with a sense of comfort and belonging. Additionally, I have assembled and distributed care packages 
                   and goody bags to brighten the days of children receiving medical treatment. By working alongside other volunteers, I have 
                   helped maintain a supportive and uplifting atmosphere, gaining valuable experience in teamwork, empathy, and community service.
                   </p>
                 </div>
               </div>
-
             </section>
-
           </div>
         );
 
