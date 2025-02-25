@@ -217,7 +217,7 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="font-bold text-2xl">Digital Cash for Information Technology</h3>
                 <p className="text-xl text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   As a backend cybersecurity intern, I significantly enhanced the security and performance of financial
                   applications by implementing advanced encryption protocols and integrating RESTful APIs. My solutions
                   included using AES and RSA encryption methods for secure handling of financial data, alongside utilizing
@@ -240,7 +240,7 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="font-bold text-2xl">J.P. Morgan Chase</h3>
                 <p className="text-xl text-gray-600">Software Engineering Virtual Experience | December 2024</p>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable
                   smooth communication between frontend and backend components, ensuring scalability and independent operation
                   of processes. I integrated an in-memory H2 database to store and validate transaction records in real-time,
@@ -265,7 +265,7 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="font-bold text-2xl">Paris Baguette</h3>
                 <p className="text-xl text-gray-600">Barista | April 2024 – November 2024</p>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   As a barista and cashier, I efficiently managed over 500 orders per shift, demonstrating exceptional
                   customer service and operational skills. I oversaw stock and inventory, ensuring supplies were well-organized
                   and readily available, which was crucial for maintaining the flow of a busy environment. Additionally, I was
@@ -287,7 +287,7 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="font-bold text-2xl">The North Face</h3>
                 <p className="text-xl text-gray-600">Sales Associate | April 2023 – June 2024</p>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   As a sales associate in a busy location on Michigan Avenue, I consistently achieved high sales, averaging
                   over $3,000 daily. My role included opening and closing the store, handling online orders, and managing stock
                   to ensure availability. I was also responsible for creating visually appealing merchandise displays
@@ -309,7 +309,7 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="font-bold text-2xl">Planet Fitness</h3>
                 <p className="text-xl text-gray-600">Sales Associate | May 2023 – July 2023</p>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   My role involved opening the gym each morning and preparing the space to ensure it was clean and well-organized
                   for the day ahead. I supported gym members by creating personalized fitness plans, explaining membership options, and leading
                   detailed tours of our facilities. At the front desk, I managed daily operations, efficiently handling inquiries and maintaining
@@ -339,7 +339,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Music Mood Analysis</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Music Mood Analysis project replicates Spotify Wrapped by analyzing user listening habits and predicting their preferred music styles
                   with high accuracy. Developed using Python, it processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data
                   and audio features through the Spotify API. Using machine learning models such as Random Forest and Neural Networks, it categorizes songs
@@ -372,7 +372,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">CTA Database App</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The CTA Database App is a Python-based console application that leverages SQL for backend data
                   management and Matplotlib for dynamic data visualization. This utility enables users to interact
                   with Chicago Transit Authority (CTA) data through nine versatile commands, allowing for advanced
@@ -407,7 +407,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Encrypted Messenger</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Encrypted Messenger is a secure communication application developed using the Spring Framework, adhering
                   to the Single Responsibility Principle to ensure each class has a distinct function. It employs a RESTful API
                   architecture, facilitating operations such as POST, GET, and DELETE, which can be tested using tools like Postman.
@@ -440,7 +440,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Fridge Inventory</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Fridge Inventory application is designed to help users efficiently manage the contents of a shared refrigerator,
                   such as those found in restaurants. Developed using JavaScript with Node.js and Express.js for the backend, and React
                   for the frontend, it provides a seamless interface for tracking and organizing fridge items. The application utilizes
@@ -473,7 +473,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Fast Food Frenzy</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   Fast Food Frenzy is a Unity-based simulation game developed in C# that challenges players to manage a
                   fast-food restaurant under increasing levels of difficulty. The game leverages AI constructs to control
                   customer behavior and game mechanics, creating a dynamic and engaging experience. Advanced game development
@@ -505,7 +505,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Smart Alarm Clock</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Smart Alarm Clock is an Arduino-based project designed to combine real-time environmental monitoring with customizable alarm functionalities.
                   Developed using C++ for microcontroller programming, the system integrates components such as an LCD display, temperature and humidity sensors,
                   and wireless communication modules to provide users with timely environmental data and notifications. The clock continuously measures and displays
@@ -538,7 +538,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Battleship Game</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Battleship Client-Server Application is a Java-based implementation of the classic Battleship game,
                   designed to facilitate multiplayer gameplay over a network using a client-server architecture. The server
                   component manages game sessions and player interactions, while the client provides an intuitive interface
@@ -572,7 +572,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Blackjack Game</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Blackjack Game is a Java-based application that simulates the classic card game, featuring an
                   interactive JavaFX GUI for an engaging user experience. Developed using object-oriented programming
                   principles, the project includes modular design with distinct classes for the deck, players, and game logic.
@@ -603,7 +603,7 @@ export default function Home() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Billboard Analysis</h3>
-                <p className="mt-2 text-xl justify">
+                <p className="mt-2 text-xl text-justify">
                   The Billboard Analysis Program is a C++ application designed to analyze Billboard chart data from 1960 to 2020,
                   offering insights into musical trends, artist performance, and song popularity across decades. The program utilizes
                   structured data management with structs to represent entries and integrates CSV parsing for seamless data import.
