@@ -142,12 +142,12 @@ export default function Home() {
                   <h4 className="text-2xl font-bold"><br /><br /><br />Earth Day Cleanup Volunteer</h4>
                   <p className="text-xl text-gray-600 mb-2">Chicago Park District | Aug 2021 – Present</p>
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
-                  As a volunteer for the annual Earth Day Cleanup, I have actively contributed to maintaining and improving Chicago’s 
-                  parks in collaboration with the Chicago Park District and Friends of the Parks. My responsibilities have included 
-                  picking up litter, mulching trees, and caring for plants to support a cleaner, greener environment. Working alongside 
-                  local residents and other volunteers, I have helped promote sustainability efforts and raise awareness about the 
-                  importance of protecting public spaces. This experience has strengthened my teamwork and leadership skills while 
-                  deepening my understanding of environmental conservation.
+                    As a volunteer for the annual Earth Day Cleanup, I have actively contributed to maintaining and improving Chicago’s
+                    parks in collaboration with the Chicago Park District and Friends of the Parks. My responsibilities have included
+                    picking up litter, mulching trees, and caring for plants to support a cleaner, greener environment. Working alongside
+                    local residents and other volunteers, I have helped promote sustainability efforts and raise awareness about the
+                    importance of protecting public spaces. This experience has strengthened my teamwork and leadership skills while
+                    deepening my understanding of environmental conservation.
                   </p>
                 </div>
               </div>
@@ -167,13 +167,13 @@ export default function Home() {
                   <h4 className="text-2xl font-bold"><br /><br /><br />Shelter Volunteer</h4>
                   <p className="text-xl text-gray-600 mb-2">Chicago Canine Rescue | Sep 2021 – Present</p>
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
-                  As a dedicated volunteer at Chicago Canine Rescue, I have played a key role in ensuring the well-being of shelter 
-                  dogs by walking, feeding, and engaging them in enrichment activities. Beyond direct animal care, I have assisted 
-                  with essential in-shelter tasks such as cleaning kennels, washing dishes, and organizing supplies to maintain a 
-                  hygienic and comfortable space for the animals. Through my time at the shelter, I have developed strong communication 
-                  skills by working closely with staff and fellow volunteers to ensure the best possible care for rescued dogs. This 
-                  role has reinforced my commitment to animal welfare and taught me the importance of patience and responsibility in 
-                  a fast-paced environment.
+                    As a dedicated volunteer at Chicago Canine Rescue, I have played a key role in ensuring the well-being of shelter
+                    dogs by walking, feeding, and engaging them in enrichment activities. Beyond direct animal care, I have assisted
+                    with essential in-shelter tasks such as cleaning kennels, washing dishes, and organizing supplies to maintain a
+                    hygienic and comfortable space for the animals. Through my time at the shelter, I have developed strong communication
+                    skills by working closely with staff and fellow volunteers to ensure the best possible care for rescued dogs. This
+                    role has reinforced my commitment to animal welfare and taught me the importance of patience and responsibility in
+                    a fast-paced environment.
                   </p>
                 </div>
               </div>
@@ -193,11 +193,11 @@ export default function Home() {
                   <h4 className="text-2xl font-bold"><br /><br /><br />Volunteer</h4>
                   <p className="text-xl text-gray-600 mb-2">Ronald McDonald House Charities | Sep 2021 – Present</p>
                   <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
-                  Through my work at Ronald McDonald House Charities, I have contributed to creating a warm and welcoming environment for 
-                  families staying at the house during difficult times. I have helped prepare fresh-baked cookies and nutritious snacks to 
-                  provide families with a sense of comfort and belonging. Additionally, I have assembled and distributed care packages 
-                  and goody bags to brighten the days of children receiving medical treatment. By working alongside other volunteers, I have 
-                  helped maintain a supportive and uplifting atmosphere, gaining valuable experience in teamwork, empathy, and community service.
+                    Through my work at Ronald McDonald House Charities, I have contributed to creating a warm and welcoming environment for
+                    families staying at the house during difficult times. I have helped prepare fresh-baked cookies and nutritious snacks to
+                    provide families with a sense of comfort and belonging. Additionally, I have assembled and distributed care packages
+                    and goody bags to brighten the days of children receiving medical treatment. By working alongside other volunteers, I have
+                    helped maintain a supportive and uplifting atmosphere, gaining valuable experience in teamwork, empathy, and community service.
                   </p>
                 </div>
               </div>
@@ -332,6 +332,44 @@ export default function Home() {
           <div className="p-6">
             <h2 className="text-4xl font-semibold text-center mb-4">Technical Projects</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
+
+            {/* Chain Quest Game */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-4">
+              <Image
+                src="/images/AstronautGame.png"
+                alt="Chain Quest"
+                width={150}
+                height={150}
+                className="ml-6"
+              />
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold">Chain Quest</h3>
+                <p className="mt-2 text-xl text-justify">
+                Chain Quest is a 3D navigation and exploration game developed using the Mapbox Unity SDK, offering 
+                players an immersive experience in a dynamically rendered city environment. Players assume the role 
+                of an astronaut, navigating urban landscapes with real-time pathfinding facilitated by Mapbox's Directions 
+                API. The game supports both real-time geolocation tracking and standard map placement, allowing players to 
+                explore their surroundings dynamically or interact with a fixed environment using intuitive player controls. 
+                The game features dynamic traffic simulations, achieved through animated car textures on roads, enhancing the
+                 realism of the urban setting. Designed for versatility, Chain Quest supports WebGL deployment, making it 
+                 accessible across various platforms and browsers. This project showcases proficiency in integrating 
+                 real-world map data into interactive applications, utilizing Mapbox's AbstractMap component to render 
+                 3D cityscapes. It demonstrates skills in real-time pathfinding, dynamic texture animation, geolocation-based 
+                 interactions, and adaptable game design, reflecting a comprehensive understanding of Unity development and 
+                 geospatial data integration.
+                </p>
+                <p className="mt-4 text-xl">
+                  <a
+                    href="https://github.com/ceasarattar/ChainQuest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                  >
+                    <i className="fa fa-external-link"></i> Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
 
 
             {/* Music Mood Analysis */}
