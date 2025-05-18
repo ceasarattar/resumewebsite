@@ -69,6 +69,32 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Hackillinois Section */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                <Image
+                  src="/images/hackillinois.jpg"
+                  alt="Hackillinois Picture"
+                  width={200}
+                  height={200}
+                  className="mr-6"
+                />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-2xl font-bold"><br /><br /><br />Hackillinois '25</h4>
+                <p className="text-xl text-gray-600 mb-2">University of Illinois at Urbana-Champaign | Solana Track | March 2025</p>
+                <p className="text-xl" style={{ textAlign: 'justify' }}>
+                Participating in HackIllinois 2025 gave me the opportunity to collaborate intensively with a peers 
+                from a  diverse technical background in a fast-paced, high-pressure, and innovation-driven environment. 
+                Competing in the Solana blockchain track, I contributed to designing a decentralized AR experience while 
+                navigating tight deadlines, evolving project scope, and new technologies. The hackathon challenged me to 
+                adapt quickly, communicate effectively, and apply my software development skills in unfamiliar territory. 
+                Beyond technical growth, the experience deepened my appreciation for creative problem-solving and teamwork 
+                in a fast-paced setting.
+                </p>
+              </div>
+            </div>
+
             {/* NAAMA Section */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
               <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
@@ -345,18 +371,18 @@ export default function Home() {
               <div className="flex-1">
                 <h3 className="text-2xl font-bold">Chain Quest</h3>
                 <p className="mt-2 text-xl text-justify">
-                Chain Quest is a 3D navigation and exploration game developed using the Mapbox Unity SDK, offering 
-                players an immersive experience in a dynamically rendered city environment. Players assume the role 
-                of an astronaut, navigating urban landscapes with real-time pathfinding facilitated by Mapbox's Directions 
-                API. The game supports both real-time geolocation tracking and standard map placement, allowing players to 
-                explore their surroundings dynamically or interact with a fixed environment using intuitive player controls. 
-                The game features dynamic traffic simulations, achieved through animated car textures on roads, enhancing the
-                 realism of the urban setting. Designed for versatility, Chain Quest supports WebGL deployment, making it 
-                 accessible across various platforms and browsers. This project showcases proficiency in integrating 
-                 real-world map data into interactive applications, utilizing Mapbox's AbstractMap component to render 
-                 3D cityscapes. It demonstrates skills in real-time pathfinding, dynamic texture animation, geolocation-based 
-                 interactions, and adaptable game design, reflecting a comprehensive understanding of Unity development and 
-                 geospatial data integration.
+                  Chain Quest is a 3D navigation and exploration game developed using the Mapbox Unity SDK, offering
+                  players an immersive experience in a dynamically rendered city environment. Players assume the role
+                  of an astronaut, navigating urban landscapes with real-time pathfinding facilitated by Mapbox's Directions
+                  API. The game supports both real-time geolocation tracking and standard map placement, allowing players to
+                  explore their surroundings dynamically or interact with a fixed environment using intuitive player controls.
+                  The game features dynamic traffic simulations, achieved through animated car textures on roads, enhancing the
+                  realism of the urban setting. Designed for versatility, Chain Quest supports WebGL deployment, making it
+                  accessible across various platforms and browsers. This project showcases proficiency in integrating
+                  real-world map data into interactive applications, utilizing Mapbox's AbstractMap component to render
+                  3D cityscapes. It demonstrates skills in real-time pathfinding, dynamic texture animation, geolocation-based
+                  interactions, and adaptable game design, reflecting a comprehensive understanding of Unity development and
+                  geospatial data integration.
                 </p>
                 <p className="mt-4 text-xl">
                   <a
@@ -750,10 +776,10 @@ export default function Home() {
                 Back End Development and APIs (freeCodeCamp)
               </p>
               <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Languages:</strong> Python, Go, C, C++, C#, Scala, Java, JavaScript, TypeScript, Kotlin, SQL, F#, Ruby
+                <strong>Languages:</strong> Python, Go, C, C++, C#, Scala, Java, JavaScript, TypeScript, Kotlin, SQL, F#, Ruby, VBA
               </p>
               <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Developer and Design Tools:</strong> Git, GitHub, Docker, Jira, Postman, Scikit-learn, SciPy, Pandas, NumPy, Maven, Terraform, Jenkins, Ansible, HTML, CSS, Figma, Arduino
+                <strong>Developer and Design Tools:</strong> Git, GitHub, Docker, Jira, Postman, Scikit-learn, SciPy, Pandas, NumPy, Maven, Terraform, Jenkins, Ansible, HTML, CSS, Figma, Arduino, Microsoft Access
               </p>
               <p className="text-xl justify w-3/4 mx-auto" style={{ textAlignLast: "center" }}>
                 <strong>Frameworks & Technologies:</strong> AWS, Azure, MySQL, React, Hibernate, RESTful API, Spring Boot, Kafka, Next.js, Express.js, Node.js, Google Test, JUnit, Unity, TensorFlow, PyTorch, Ruby on Rails
