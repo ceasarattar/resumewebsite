@@ -45,30 +45,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* ACM Section */}
-            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
-              <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
-                <Image
-                  src="/images/acm.png"
-                  alt="ACM Logo"
-                  width={200}
-                  height={200}
-                  className="mr-6"
-                />
-              </div>
-              <div className="flex-1">
-                <h4 className="text-2xl font-bold"><br /><br /><br />Association for Computing Machinery</h4>
-                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | September 2023 – Current</p>
-                <p className="text-xl" style={{ textAlign: 'justify' }}>
-                  As a member of ACM, I have actively contributed to building a community of computing enthusiasts on campus.
-                  I have managed server operations, ensuring high uptime for student projects and events, and organized workshops
-                  to enhance members' technical skills. My role in organizing Special Interest Group events and hackathons has promoted collaboration
-                  and innovation among peers while addressing real-world technical challenges. This involvement has significantly enhanced my leadership
-                  and technical skills, preparing me to make impactful contributions in the tech industry.
-                </p>
-              </div>
-            </div>
-
             {/* Hackillinois Section */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
               <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
@@ -91,6 +67,30 @@ export default function Home() {
                 adapt quickly, communicate effectively, and apply my software development skills in unfamiliar territory. 
                 Beyond technical growth, the experience deepened my appreciation for creative problem-solving and teamwork 
                 in a fast-paced setting.
+                </p>
+              </div>
+            </div>
+            
+            {/* ACM Section */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse gap-x-6">
+              <div className="ml-auto pr-90" style={{ marginTop: '6rem' }}>
+                <Image
+                  src="/images/acm.png"
+                  alt="ACM Logo"
+                  width={200}
+                  height={200}
+                  className="mr-6"
+                />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-2xl font-bold"><br /><br /><br />Association for Computing Machinery</h4>
+                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | September 2023 – Current</p>
+                <p className="text-xl" style={{ textAlign: 'justify' }}>
+                  As a member of ACM, I have actively contributed to building a community of computing enthusiasts on campus.
+                  I have managed server operations, ensuring high uptime for student projects and events, and organized workshops
+                  to enhance members' technical skills. My role in organizing Special Interest Group events and hackathons has promoted collaboration
+                  and innovation among peers while addressing real-world technical challenges. This involvement has significantly enhanced my leadership
+                  and technical skills, preparing me to make impactful contributions in the tech industry.
                 </p>
               </div>
             </div>
