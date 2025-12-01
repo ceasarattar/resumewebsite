@@ -17,8 +17,29 @@ export default function Home() {
             <h2 className="text-4xl font-semibold text-center mb-4">Educational Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
 
-            {/* UIC Logo */}
+            {/* Georgia Tech Section */}
             <div className="text-center mb-8">
+              <Image
+                src="/images/gatech.png"
+                alt="Georgia Institute of Technology Logo"
+                width={400}
+                height={300}
+                className="mx-auto"
+              />
+            </div>
+
+            <div className="mb-8">
+              <p className="text-xl text-gray-600 text-center mb-4">Master of Science in Computer Science, Specialization in Artificial Intelligence | Expected May 2027</p>
+              <p className="text-xl leading-relaxed" style={{ textAlign: 'justify' }}>
+                I'm pursuing a Master's in Computer Science with a focus on Artificial Intelligence at Georgia Tech.
+                The program builds on my undergraduate foundation while diving deeper into machine learning, neural networks,
+                and AI systems. Through coursework and research, I'm working on applying these technologies to solve
+                practical problems in areas like natural language processing, computer vision, and intelligent automation.
+              </p>
+            </div>
+
+            {/* UIC Section */}
+            <div className="text-center mb-8 mt-12">
               <Image
                 src="/images/uic.png"
                 alt="University of Illinois at Chicago Logo"
@@ -29,19 +50,15 @@ export default function Home() {
             </div>
 
             {/* Description */}
-            <div className="mb-8" style={{ textAlign: 'justify' }}>
-              <p className="text-xl leading-relaxed mb-4">
-                As a student at the University of Illinois at Chicago pursuing a Bachelor of Science in Computer Science,
-                I have immersed myself in an academically rigorous environment that prioritizes both theoretical knowledge and
-                practical skills. My coursework has covered a wide range of topics from algorithms and operating systems to database
-                management, each pushing me to sharpen my problem-solving skills and embrace a thorough approach to software development.
-              </p>
-              <p className="text-xl leading-relaxed">
-                My studies have also provided hands-on experience in video game development, physical computing, and systems architecture,
-                enabling me to connect theory to real-world applications. Through projects and collaborative assignments, I have
-                developed technical skills in analyzing complex systems, optimizing performance, and maintaining scalability.
-                These experiences have not only expanded my technical skillset but also developed my ability to collaborate effectively
-                within my team.
+            <div className="mb-8">
+              <p className="text-xl text-gray-600 text-center mb-4">Bachelor of Science in Computer Science | 2021 - 2025</p>
+              <p className="text-xl leading-relaxed mb-4" style={{ textAlign: 'justify' }}>
+                I graduated from UIC with a B.S. in Computer Science, where I built a strong foundation in algorithms,
+                operating systems, database management, and software design. My coursework included video game development,
+                physical computing, and systems architecture, which gave me hands-on experience connecting theory to practice.
+                Through various projects and team assignments, I learned to analyze complex systems, optimize performance,
+                and work effectively with others. I was honored to receive the 52nd Annual Chancellor's Student Service and
+                Leadership Award for my campus contributions.
               </p>
             </div>
 
@@ -84,13 +101,15 @@ export default function Home() {
               </div>
               <div className="flex-1">
                 <h4 className="text-2xl font-bold"><br /><br /><br />Association for Computing Machinery</h4>
-                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | September 2023 – Current</p>
+                <p className="text-xl text-gray-600 mb-2">University of Illinois Chapter | September 2023 – May 2025</p>
                 <p className="text-xl" style={{ textAlign: 'justify' }}>
-                  As a member of ACM, I have actively contributed to building a community of computing enthusiasts on campus.
-                  I have managed server operations, ensuring high uptime for student projects and events, and organized workshops
-                  to enhance members' technical skills. My role in organizing Special Interest Group events and hackathons has promoted collaboration
-                  and innovation among peers while addressing real-world technical challenges. This involvement has significantly enhanced my leadership
-                  and technical skills, preparing me to make impactful contributions in the tech industry.
+                  As a member of ACM, I actively contributed to building a community of computing enthusiasts on campus.
+                  I performed systems engineering to ensure 99% server uptime for student projects and chapter-hosted events,
+                  and organized technical workshops on API development, enabling students to gain practical experience in GraphQL
+                  and REST. I mentored junior members in fundamental software engineering practices, contributing to higher project
+                  quality and collaboration. My role in organizing Special Interest Group events and hackathons promoted collaboration
+                  and innovation among peers while addressing real-world technical challenges. Through social events and hackathons,
+                  I boosted recruitment and engagement, increasing membership growth and promoting collaboration across the chapter.
                 </p>
               </div>
             </div>
@@ -236,6 +255,33 @@ export default function Home() {
           <div className="p-6">
             <h2 className="text-4xl font-semibold text-center mb-4">Work Experience</h2>
             <hr className="w-full mx-auto mb-4 border-t-2 border-gray-800" />
+
+            {/* Raila and Associates */}
+            <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
+              <div className="ml-auto pr-90">
+                <Image
+                  src="/images/raila.png"
+                  alt="Raila and Associates Logo"
+                  width={190}
+                  height={200}
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-2xl">Raila & Associates</h3>
+                <p className="text-xl text-gray-600">Database Management Analyst | May 2025 – Present</p>
+                <p className="mt-2 text-xl text-justify">
+                  As a Database Management Analyst, I have significantly improved the reliability and performance of critical
+                  data systems by analyzing performance bottlenecks and instability in legacy VBA components, enhancing consistency
+                  across core workflows. I built Python scripts and structured queries to automate repetitive operations, reducing
+                  error rates and manual processing time while conducting systematic validation of data workflows to identify edge-case
+                  failures and reinforce system reliability. A major achievement was migrating a high-volume query engine from legacy
+                  infrastructure to FileMaker, enabling efficient data computation across 2M+ records. Through optimizing database schemas,
+                  indexing, and concurrent batch query execution, I have reduced latency and improved overall data throughput,
+                  ensuring the system can handle growing data demands with enhanced performance and stability.
+                </p>
+              </div>
+            </div>
+
             {/* Digital Cash */}
             <div className="flex flex-wrap items-center mb-8 flex-row-reverse">
               <div className="ml-auto pr-90">
@@ -250,12 +296,13 @@ export default function Home() {
                 <h3 className="font-bold text-2xl">Digital Cash for Information Technology</h3>
                 <p className="text-xl text-gray-600">Back End Cybersecurity Intern | May 2024 – August 2024</p>
                 <p className="mt-2 text-xl text-justify">
-                  As a backend cybersecurity intern, I significantly enhanced the security and performance of financial
-                  applications by implementing advanced encryption protocols and integrating RESTful APIs. My solutions
-                  included using AES and RSA encryption methods for secure handling of financial data, alongside utilizing
-                  the Spring framework and Hibernate to improve system architecture and responsiveness. Throughout my time at
-                  Digital Cash, I collaborated effectively with team members using Jira and agile sprints, focusing
-                  on optimizing backend code and maintaining high security standards across all projects.
+                  As a backend cybersecurity intern, I enhanced API performance by profiling behavior under load and applying
+                  targeted optimizations to resolve bottlenecks. I optimized backend infrastructure to support CI/CD pipelines
+                  for scalable and high-volume data workflows, reducing system latency while implementing lightweight RSA and
+                  AES-GCM encryption protocols for API transaction security, validated through comprehensive testing. I collaborated
+                  with engineers to reproduce defects and verify fixes, gaining experience in structured debugging and validation
+                  workflows. Additionally, I increased throughput in distributed backend workflows by optimizing connection pooling,
+                  cache utilization, and multi-threaded pipelines, significantly improving overall system performance and reliability.
                 </p>
               </div>
             </div>
@@ -273,14 +320,10 @@ export default function Home() {
                 <h3 className="font-bold text-2xl">J.P. Morgan Chase</h3>
                 <p className="text-xl text-gray-600">Software Engineering Virtual Experience | December 2024</p>
                 <p className="mt-2 text-xl text-justify">
-                  During this experience, I built an efficient transaction queue system using Spring Boot and Kafka to enable
-                  smooth communication between frontend and backend components, ensuring scalability and independent operation
-                  of processes. I integrated an in-memory H2 database to store and validate transaction records in real-time,
-                  allowing for quick data storage while reducing reliance on external databases during testing. To optimize
-                  backend interactions, I developed and enhanced RESTful APIs with Spring Boot RestTemplate, enabling faster
-                  and more reliable communication between backend services. To ensure system reliability, I implemented rigorous
-                  testing using JUnit and embedded Kafka, simulating real-world message flows to validate data accuracy and performance
-                  under load. This project enhanced my ability to design scalable systems, improve backend workflows, and test data-driven applications.
+                  Built a transaction queue system using Spring Boot and Kafka to handle communication between frontend and backend
+                  components. Integrated an H2 in-memory database for real-time transaction validation and testing. Developed RESTful
+                  APIs with Spring Boot RestTemplate to improve backend service communication. Implemented comprehensive testing with
+                  JUnit and embedded Kafka to validate system reliability under load.
                 </p>
               </div>
             </div>
@@ -408,15 +451,16 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-2xl font-bold">Music Mood Analysis</h3>
+                <h3 className="text-2xl font-bold">Musical Mood Analyzer</h3>
                 <p className="mt-2 text-xl text-justify">
-                  The Music Mood Analysis project replicates Spotify Wrapped by analyzing user listening habits and predicting their preferred music styles
-                  with high accuracy. Developed using Python, it processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data
-                  and audio features through the Spotify API. Using machine learning models such as Random Forest and Neural Networks, it categorizes songs
-                  into moods like Happy, Sad, Energetic, and Chill by analyzing acoustic attributes, including tempo, loudness, and valence. NumPy and Pandas
-                  handle data preprocessing, outlier removal, and feature engineering to improve prediction accuracy, ensuring meaningful insights from structured
-                  datasets. The system also applies silence detection and segmentation techniques to enhance audio analysis. This project demonstrates advanced
-                  techniques in machine learning, API integration, and data analysis, providing a data-driven approach to understanding user music preferences.
+                  The Musical Mood Analyzer is a machine learning pipeline that replicates Spotify Wrapped by analyzing user listening habits
+                  and predicting their preferred music styles with high accuracy. Built using Python, Pandas, and NumPy, I preprocessed Spotify
+                  audio features for mood classification, handling data cleaning, outlier removal, and feature engineering. I trained multiple
+                  models, including Logistic Regression, Random Forest, and XGBoost, achieving 75% accuracy in predicting song moods such as Happy,
+                  Sad, Energetic, and Chill by analyzing acoustic attributes including tempo, loudness, and valence. Applied StandardScaler and
+                  LabelEncoder in Scikit-learn to standardize features and optimize model convergence for mood classification. The system also
+                  processes raw audio files with pyaudio, pydub, and Essentia while extracting playlist data and audio features through the
+                  Spotify API, demonstrating advanced techniques in machine learning, API integration, and data analysis.
                 </p>
                 <p className="mt-4 text-lg">
                   <a
@@ -476,15 +520,17 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-2xl font-bold">Encrypted Messenger</h3>
+                <h3 className="text-2xl font-bold">Encrypted Messaging System</h3>
                 <p className="mt-2 text-xl text-justify">
-                  The Encrypted Messenger is a secure communication application developed using the Spring Framework, adhering
-                  to the Single Responsibility Principle to ensure each class has a distinct function. It employs a RESTful API
-                  architecture, facilitating operations such as POST, GET, and DELETE, which can be tested using tools like Postman.
-                  Data persistence is managed through Hibernate ORM, interfacing with a MySQL database to store messages and user
-                  information. The application features a client-server model where messages are encrypted using the Advanced Encryption
-                  Standard (AES) before transmission, ensuring data confidentiality during transit. Upon reaching the server, messages
-                  are decrypted and stored securely in the database.
+                  The Encrypted Messaging System is a secure communication application developed using object-oriented design (OOD)
+                  principles and integrated with JUnit test cases. Built with a multi-threaded architecture to handle high-frequency
+                  real-time communication, ensuring low-latency performance and smooth user interaction. The application employs a
+                  RESTful API architecture using the Spring Framework, facilitating operations such as POST, GET, and DELETE, which
+                  can be tested using tools like Postman. Data persistence is managed through Hibernate ORM, with optimized database
+                  queries that improve read/write efficiency across high-traffic message storage, interfacing with a MySQL database.
+                  The application features a client-server model where messages are encrypted using the Advanced Encryption Standard
+                  (AES) before transmission, ensuring data confidentiality during transit. Upon reaching the server, messages are
+                  decrypted and stored securely in the database.
                 </p>
                 <p className="mt-4 text-xl">
                   <a
@@ -574,15 +620,17 @@ export default function Home() {
                 className="ml-6"
               />
               <div className="flex-1">
-                <h3 className="text-2xl font-bold">Smart Alarm Clock</h3>
+                <h3 className="text-2xl font-bold">Smart Alarm Clock — Embedded System</h3>
                 <p className="mt-2 text-xl text-justify">
-                  The Smart Alarm Clock is an Arduino-based project designed to combine real-time environmental monitoring with customizable alarm functionalities.
-                  Developed using C++ for microcontroller programming, the system integrates components such as an LCD display, temperature and humidity sensors,
-                  and wireless communication modules to provide users with timely environmental data and notifications. The clock continuously measures and displays
-                  temperature and humidity levels, allowing users to set alarms based on specific times or environmental thresholds, enhancing its utility beyond
-                  traditional alarm clocks. The user interface, presented on an LCD screen, ensures clear interaction and control, while wireless communication modules
-                  enable remote sensor data collection and alarm triggering. This project highlights expertise in embedded systems and hardware-software development,
-                  offering a practical example of leveraging environmental data to create a smarter and more responsive alarm clock.
+                  The Smart Alarm Clock is an Arduino-based embedded system designed to combine real-time environmental monitoring with
+                  customizable alarm functionalities. I developed firmware in C++ for the Arduino-based alarm system, integrating temperature
+                  and light sensors via ADC for timed triggers. Through debugging signal noise, jitter, and timing drift using serial logging
+                  and calibration, I improved accuracy by 30% and reduced latency significantly. The system works with hardware timers, ADC
+                  sampling, and I²C communication to coordinate sensor input and display output. The clock continuously measures and displays
+                  temperature and light levels, allowing users to set alarms based on specific times or environmental thresholds, enhancing
+                  its utility beyond traditional alarm clocks. The user interface, presented on an LCD screen, ensures clear interaction and
+                  control, while wireless communication modules enable remote sensor data collection and alarm triggering. This project
+                  highlights expertise in embedded systems, microcontroller programming, and hardware-software development.
                 </p>
                 <p className="mt-4 text-xl">
                   <a
@@ -741,24 +789,20 @@ export default function Home() {
             </div>
             <h1 className="text-5xl font-bold mt-6">Ceasar Attar</h1>
             <p className="text-2xl mt-4">
-              University of Illinois at Chicago<br />
-              Bachelor of Science in Computer Science<br />
-              Expected Graduation May 2025
+              Georgia Institute of Technology<br />
+              Master of Science in Computer Science<br />
+              Specialization in Artificial Intelligence<br />
+              Expected Graduation May 2027
             </p>
-            <div className="text-xl flex items-center justify-center gap-3">
-              <FaMapMarkerAlt className="text-black" />
-              <span>Chicago, IL</span>
-            </div>
           </div>
 
 
           {/* About Me */}
           <section id="about" className="text-xl mt-6">
             <p className="text-justify" style={{ textAlignLast: 'center' }}>
-              As a senior Computer Science student, my academic and professional journey centers
-              around backend development and cybersecurity. With a strong foundation in software and
-              program design, I excel at enhancing system performance and integrating advanced security protocols.
-              I aim to contribute to dynamic teams that prioritize advanced and efficient software solutions.
+              I'm a Computer Science graduate student specializing in AI at Georgia Tech. My work focuses on backend development,
+              database optimization, and building intelligent systems. I enjoy solving performance problems, debugging complex workflows,
+              and working with teams that value clean, efficient code.
             </p>
           </section>
 
@@ -768,22 +812,21 @@ export default function Home() {
             <hr className="w-80 mx-auto border-black mb-4" />
             <div className="flex flex-col items-center text-center w-full">
               <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Skills:</strong> Project Management, Time Management, Teamwork and Collaboration,
-                Critical Thinking, Problem Solving, Attention to Detail, Creativity
+                <strong>Skills:</strong> Embedded Systems, Microcontroller Programming, Database Optimization, Performance Profiling,
+                Workflow Automation, System Debugging
               </p>
               <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
                 <strong>Certifications:</strong> Foundations of Security (Google), Responsive Web Design (freeCodeCamp),
                 Back End Development and APIs (freeCodeCamp)
               </p>
               <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Languages:</strong> Python, Go, C, C++, C#, Scala, Java, JavaScript, TypeScript, Kotlin, SQL, F#, Ruby, VBA
+                <strong>Languages:</strong> C, C++, Python, Java, C#, Go, JavaScript, TypeScript, R, SQL, F#, Ruby, VBA
               </p>
               <p className="text-xl justify w-3/4 mx-auto mb-4" style={{ textAlignLast: "center" }}>
-                <strong>Developer and Design Tools:</strong> Git, GitHub, Docker, Jira, Postman, Scikit-learn, SciPy, Pandas, NumPy, Maven, Terraform, Jenkins, Ansible, HTML, CSS, Figma, Arduino, Microsoft Access
+                <strong>Developer Tools:</strong> Git, GitHub, Jira, Postman, FileMaker, Docker, Figma, Arduino, RStudio, Altair AI Studio
               </p>
               <p className="text-xl justify w-3/4 mx-auto" style={{ textAlignLast: "center" }}>
-                <strong>Frameworks & Technologies:</strong> AWS, Azure, MySQL, React, Hibernate, RESTful API, Spring Boot, Kafka, Next.js, Express.js, Node.js, Google Test, JUnit, Unity, TensorFlow, PyTorch, Ruby on Rails
-                on Rails
+                <strong>Frameworks & Technologies:</strong> AWS, Azure, MySQL, PostgreSQL, React, Hibernate, RESTful API, Spring Boot, Kafka, Node.js, Express.js, Next.js
               </p>
             </div>
           </section>
@@ -824,7 +867,7 @@ export default function Home() {
               <div className="flex items-center justify-center w-full">
                 <FaFileDownload className="text-black mr-3" />
                 <a
-                  href="/sweResume.pdf"
+                  href="/CeasarAttar.pdf"
                   download
                   className="text-blue-500 underline"
                 >
