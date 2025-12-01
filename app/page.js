@@ -1,5 +1,5 @@
 "use client";
-
+// Updated December 2025
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaFileDownload } from "react-icons/fa";
 import Image from "next/image";
@@ -801,7 +801,7 @@ export default function Home() {
           <section id="about" className="text-xl mt-6">
             <p className="text-justify" style={{ textAlignLast: 'center' }}>
               I'm a Computer Science graduate student specializing in AI at Georgia Tech. My work focuses on backend development,
-              database optimization, and building intelligent systems. I enjoy solving performance problems, debugging complex workflows,
+              database optimization, and building intelligent systems. I enjoy optimizing performance, debugging complex workflows,
               and working with teams that value clean, efficient code.
             </p>
           </section>
